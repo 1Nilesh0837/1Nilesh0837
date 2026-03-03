@@ -19,6 +19,8 @@
 
 ## 🧠 About Me
 
+<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:10px; margin-left:20px;" />
+
 ```python
 class NileshSahoo:
     def __init__(self):
@@ -38,6 +40,8 @@ class NileshSahoo:
 me = NileshSahoo()
 me.say_hi()
 ```
+
+<br clear="right"/>
 
 ---
 
