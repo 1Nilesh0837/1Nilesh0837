@@ -1,17 +1,17 @@
 <div align="center">
 
-<!-- Animated Header Banner - Vivid gradient with neon glow -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6a0dad,25:8b00ff,50:9400D3,75:b44fff,100:ff6fff&height=220&section=header&text=Nilesh%20Sahoo&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=40&stroke=ff00ff&strokeWidth=2&desc=⚡%20Full-Stack%20·%20ML%20Engineer%20·%20App%20Builder%20⚡&descAlignY=62&descAlign=50&descSize=20" />
+<!-- Animated Tech Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,40:0a0a2e,70:001a1a,100:0d0d0d&height=200&text=NILESH%20SAHOO&fontSize=72&fontColor=00ff9f&animation=twinkling&fontAlignY=45&stroke=00ff9f&strokeWidth=1&desc=%3E_%20Full-Stack%20%7C%20ML%20Engineer%20%7C%20App%20Builder&descAlignY=68&descAlign=50&descSize=18&descColor=7affcb" />
 
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B68EE&center=true&vCenter=true&multiline=false&width=600&lines=Hey+there!+I'm+Nilesh+%F0%9F%91%8B;Frontend+Dev+%7C+ML+Engineer+%7C+App+Builder;Building+cool+stuff+from+%F0%9F%87%AE%F0%9F%87%B3+India;Open+to+collaborate+%F0%9F%A4%9D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=650&lines=%3E+Initializing+Nilesh.exe...+%F0%9F%9F%A2;%3E+Full-Stack+Dev+%7C+ML+Engineer+%7C+App+Builder;%3E+Building+AI+that+actually+matters+%F0%9F%A4%96;%3E+From+%F0%9F%87%AE%F0%9F%87%B3+India+to+the+World+%F0%9F%8C%8D;%3E+Open+to+Collaborate+%5BY%2FN%5D%3F+Y_)](https://git.io/typing-svg)
 
 <br/>
 
 <!-- Profile badges -->
-![Profile Views](https://komarev.com/ghpvc/?username=1nilesh0837&label=Profile%20views&color=7B68EE&style=for-the-badge)
-[![GitHub followers](https://img.shields.io/github/followers/1Nilesh0837?label=Followers&style=for-the-badge&color=7B68EE&labelColor=0d1117)](https://github.com/1Nilesh0837?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/1Nilesh0837?label=Stars&style=for-the-badge&color=7B68EE&labelColor=0d1117)](https://github.com/1Nilesh0837?tab=stars)
+![Profile Views](https://komarev.com/ghpvc/?username=1nilesh0837&label=Profile%20views&color=00ff9f&style=for-the-badge&labelColor=0d1117)
+[![GitHub followers](https://img.shields.io/github/followers/1Nilesh0837?label=Followers&style=for-the-badge&color=00ff9f&labelColor=0d1117)](https://github.com/1Nilesh0837?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/1Nilesh0837?label=Stars&style=for-the-badge&color=00ff9f&labelColor=0d1117)](https://github.com/1Nilesh0837?tab=stars)
 
 </div>
 
@@ -92,25 +92,15 @@ me.say_hi()
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=b44fff&icon_color=ff6fff&text_color=ffffff&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff9f&icon_color=00ff9f&text_color=7affcb&border_radius=10"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=b44fff&text_color=ffffff&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9f&text_color=7affcb&border_radius=10"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=b44fff&fire=ff6fff&currStreakLabel=b44fff&sideLabels=ffffff&dates=888888&border_radius=10)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=1Nilesh0837&theme=dracula&no-frame=true&row=1&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=00ff9f&fire=00ff9f&currStreakLabel=00ff9f&sideLabels=7affcb&dates=555555&border_radius=10)](https://git.io/streak-stats)
 
 </div>
 
@@ -143,7 +133,7 @@ me.say_hi()
 <div align="center">
 
 <!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6fff,25:b44fff,50:9400D3,75:8b00ff,100:6a0dad&height=130&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,40:0a0a2e,70:001a1a,100:0d0d0d&height=80&text=%3E_%20Thanks%20for%20visiting%20%2F%20EOF&fontSize=20&fontColor=00ff9f&fontAlignY=55&descColor=7affcb" />
 
 **"Code is poetry written in logic"** ✨
 
