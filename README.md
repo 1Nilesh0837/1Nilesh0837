@@ -19,7 +19,7 @@
 
 ## 🧠 About Me
 
-<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:10px; margin-left:20px;" />
+<img align="right" alt="Coding Cat" width="380" src="[https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif](https://giphy.com/gifs/zoefannet-onwaaard-tgdr-floppinwrist-fsDFaSpcmTCuTBStqr)" style="border-radius:10px; margin-left:20px;" />
 
 ```python
 class NileshSahoo:
