@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Drop + Water Ripple Header -->
-<img width="100%" src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/main/header.svg" alt="Nilesh Sahoo - Animated Header"/>
+<img width="100%" src="https://1-nilesh0837.vercel.app/api/header" alt="Nilesh Sahoo"/>
 
 <!-- Typing animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=650&lines=%3E+Initializing+Nilesh.exe...+%F0%9F%9F%A2;%3E+Full-Stack+Dev+%7C+ML+Engineer+%7C+App+Builder;%3E+Building+AI+that+actually+matters+%F0%9F%A4%96;%3E+From+%F0%9F%87%AE%F0%9F%87%B3+India+to+the+World+%F0%9F%8C%8D;%3E+Open+to+Collaborate+%5BY%2FN%5D%3F+Y_)](https://git.io/typing-svg)
