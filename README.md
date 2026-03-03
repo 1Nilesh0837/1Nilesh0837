@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Tech Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,40:0a0a2e,70:001a1a,100:0d0d0d&height=200&text=NILESH%20SAHOO&fontSize=72&fontColor=00ff9f&animation=twinkling&fontAlignY=45&stroke=00ff9f&strokeWidth=1&desc=%3E_%20Full-Stack%20%7C%20ML%20Engineer%20%7C%20App%20Builder&descAlignY=68&descAlign=50&descSize=18&descColor=7affcb" />
+<!-- Animated Drop + Water Ripple Header -->
+<img width="100%" src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/main/header.svg" alt="Nilesh Sahoo - Animated Header"/>
 
 <!-- Typing animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=22&pause=1000&color=00FF9F&center=true&vCenter=true&width=650&lines=%3E+Initializing+Nilesh.exe...+%F0%9F%9F%A2;%3E+Full-Stack+Dev+%7C+ML+Engineer+%7C+App+Builder;%3E+Building+AI+that+actually+matters+%F0%9F%A4%96;%3E+From+%F0%9F%87%AE%F0%9F%87%B3+India+to+the+World+%F0%9F%8C%8D;%3E+Open+to+Collaborate+%5BY%2FN%5D%3F+Y_)](https://git.io/typing-svg)
