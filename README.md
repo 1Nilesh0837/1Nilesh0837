@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Nilesh%20Sahoo&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%7C%20ML%20%7C%20Mobile%20Developer&descAlignY=60&descAlign=50" />
+<!-- Animated Header Banner - Vivid gradient with neon glow -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6a0dad,25:8b00ff,50:9400D3,75:b44fff,100:ff6fff&height=220&section=header&text=Nilesh%20Sahoo&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=40&stroke=ff00ff&strokeWidth=2&desc=⚡%20Full-Stack%20·%20ML%20Engineer%20·%20App%20Builder%20⚡&descAlignY=62&descAlign=50&descSize=20" />
 
 <!-- Typing animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B68EE&center=true&vCenter=true&multiline=false&width=600&lines=Hey+there!+I'm+Nilesh+%F0%9F%91%8B;Frontend+Dev+%7C+ML+Engineer+%7C+App+Builder;Building+cool+stuff+from+%F0%9F%87%AE%F0%9F%87%B3+India;Open+to+collaborate+%F0%9F%A4%9D)](https://git.io/typing-svg)
@@ -92,14 +92,15 @@ me.say_hi()
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=7B68EE&icon_color=7B68EE"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7B68EE"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=b44fff&icon_color=ff6fff&text_color=ffffff&border_radius=10"/>
+&nbsp;&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=b44fff&text_color=ffffff&border_radius=10"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=1nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=7B68EE&fire=FF6B6B&currStreakLabel=7B68EE)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=b44fff&fire=ff6fff&currStreakLabel=b44fff&sideLabels=ffffff&dates=888888&border_radius=10)](https://git.io/streak-stats)
 
 </div>
 
@@ -109,7 +110,7 @@ me.say_hi()
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=1nilesh0837&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=1Nilesh0837&theme=dracula&no-frame=true&row=1&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -142,7 +143,7 @@ me.say_hi()
 <div align="center">
 
 <!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff6fff,25:b44fff,50:9400D3,75:8b00ff,100:6a0dad&height=130&section=footer"/>
 
 **"Code is poetry written in logic"** ✨
 
