@@ -17,92 +17,51 @@
 
 ---
 
-<!-- Animated wave divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=&fontSize=0" width="100%"/>
+## 🧠 About Me
 
-<div align="center">
+<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:10px; margin-left:20px;" />
 
-<!-- Matrix-style rain gif for flair -->
-<img src="https://media.giphy.com/media/26ufp2VOtCXPGaSVK/giphy.gif" width="100%" height="120" style="border-radius:12px; object-fit:cover;"/>
+```python
+class NileshSahoo:
+    def __init__(self):
+        self.name       = "Nilesh Sahoo"
+        self.location   = "India 🇮🇳"
+        self.role       = "Full-Stack + ML Developer"
+        self.languages  = ["Python", "JavaScript", "Dart"]
+        self.frontend   = ["React", "React Native", "Flutter", "Tailwind CSS"]
+        self.backend    = ["Node.js"]
+        self.ml_stack   = ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "Seaborn", "OpenCV"]
+        self.contact    = "nileshsahoo837@gmail.com"
+        self.fun_fact   = "I turn caffeine into code ☕ → 💻"
 
-</div>
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build something awesome together 🚀")
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF00FF,50:00FFFF,100:00FF9F&height=90&section=header&text=SYSTEM.ABOUT_ME&fontColor=0d0d0d&fontSize=38&fontAlignY=65&animation=twinkling" width="100%"/>
-</div>
-
-<div align="center">
-
+me = NileshSahoo()
+me.say_hi()
 ```
 
-    ⣠⣴⣾⣿⣿⣷⣦⡀           nilesh@github.com
-   ⣾⣿⣿⣿⣿⣿⣿⣿⣷          ────────────────────────────
-   ⣿⣿⠟⠋⠉⠉⠻⢿⣿⣿          OS: India 🇮🇳
-   ⢹⣿⣷      Nilesh     Host: Full-Stack + ML Developer
-    ⠻⣿⣿⣶⣤⣤⣶⣿⣿⠟         Kernel: Python 3.x / Node.js
-     ⠈⠛⠿⠿⠿⠛⠉           Uptime: 3+ yrs of shipping code
-                        Shell: zsh + VS Code + late nights
+<br clear="right"/>
 
-    ────────────────────────────────────────────────
-    Languages.Programming:  Python, JavaScript, Dart
-    Languages.Frontend:     React, React Native, Flutter, Tailwind CSS
-    Languages.Backend:      Node.js
-    Languages.ML:           TensorFlow, PyTorch, Scikit-learn, Pandas, OpenCV
-    ────────────────────────────────────────────────
-    Hobbies.Software:       Building AI that matters, Open Source
-    Hobbies.Hardware:       Debugging at 2 AM, Overclocking side-projects
-    ────────────────────────────────────────────────
-    Contact.Email:          nileshsahoo837@gmail.com
-    Contact.LinkedIn:       /in/nilesh-sahoo-b032ab289
-    ────────────────────────────────────────────────
-    GitHub Stats:  Repos: 12+  │  Stars: 4  │  Followers: 0
-    Fun Fact:      I turn caffeine into code ☕ → 💻
+---
 
-```
-
-</div>
+## 🚀 Featured Projects
 
 <div align="center">
 
-![](https://img.shields.io/badge/⚡_MODE-FUTURISTIC-FF00FF?style=for-the-badge&labelColor=0d0d0d)
-![](https://img.shields.io/badge/🧬_BUILT_WITH-CAFFEINE_%26_CODE-00FFFF?style=for-the-badge&labelColor=0d0d0d)
-![](https://img.shields.io/badge/🚀_STATUS-SHIPPING-00FF9F?style=for-the-badge&labelColor=0d0d0d)
+| 🌾 KisanDB | 🚑 SmartCare |
+|:---:|:---:|
+| AI-powered farming platform for India | AI emergency response platform |
+| ML price prediction (88.67% accuracy) | One-touch SOS + Live GPS + Drone support |
+| Real-time weather advisories | Telemedicine + Doctor/Ambulance connection |
+| `Python` `ML` `AI` | `HTML` `GPS` `AI` |
+| [View Repo →](https://github.com/1Nilesh0837/kisandb) | [View Repo →](https://github.com/1Nilesh0837/SmartCare) |
 
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:FF00FF&height=70&text=⚡%20QUICK%20STATS&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
-
-<div align="center">
-
-![](https://forthebadge.com/images/badges/built-with-love.svg)
-![](https://forthebadge.com/images/badges/powered-by-coffee.svg)
-![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FF9F&height=70&text=🚀%20FEATURED%20PROJECTS&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/L1R1tvL9v7GVe/giphy.gif" width="60"/>
-
-| 🍲 SAARTHI | 🌱 GreenTravel Intelligence | 🛣️ Urban Road Infra Health Monitor |
-|:---:|:---:|:---:|
-| Agentic vision + trust layer for India's street food economy | AI-driven sustainable/eco-aware travel planning | Computer-vision system for monitoring road infrastructure health |
-| Vision-based trust & hygiene scoring for vendors | Smart recommendations balancing travel & environmental impact | Detects road damage (potholes/cracks) from image data |
-| Agentic AI pipeline for real-world street vendor use case | Data-driven "green" itinerary intelligence | Supports proactive civic maintenance & safety |
-| `Agentic AI` `Computer Vision` `Trust Systems` | `AI` `Sustainability` `Travel Tech` | `Computer Vision` `ML` `Infrastructure` |
-| [![View Repo](https://img.shields.io/badge/View_Repo-00FF9F?style=for-the-badge&logo=github&logoColor=black)](https://github.com/1Nilesh0837/SAARTHI-Agentic-Vision-Trust-Layer-for-India-s-Street-Food-Economy) | [![View Repo](https://img.shields.io/badge/View_Repo-FF3CAC?style=for-the-badge&logo=github&logoColor=black)](https://github.com/1Nilesh0837/GreenTravel-Intelligence) | [![View Repo](https://img.shields.io/badge/View_Repo-00FFFF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/1Nilesh0837/Urban-Road-Infrastructure-Health-Monitor-) |
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,100:00FFFF&height=70&text=🛠️%20TECH%20STACK&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
+## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -133,70 +92,35 @@
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FFFF&height=70&text=🐍%20CONTRIBUTION%20SNAKE&fontColor=0d0d0d&fontSize=26&fontAlignY=65" width="100%"/>
+## 📊 GitHub Stats
 
 <div align="center">
 
-<!-- This renders blank until the snake.yml GitHub Action (below) has run at least once -->
-<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-<sub>⚠️ Shows blank until the <b>snake.yml</b> Action below has run once on your profile repo.</sub>
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:FF00FF&height=70&text=📊%20GITHUB%20STATS&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff00ff&icon_color=00ffff&text_color=00ff9f&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff9f&icon_color=00ff9f&text_color=7affcb&border_radius=10"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=ff00ff&text_color=00ffff&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9f&text_color=7affcb&border_radius=10"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=nightowl&hide_border=true&background=0D1117&ring=FF00FF&fire=00FFFF&currStreakLabel=00FF9F&sideLabels=7affcb&dates=555555&border_radius=10)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=00ff9f&fire=00ff9f&currStreakLabel=00ff9f&sideLabels=7affcb&dates=555555&border_radius=10)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FF9F&height=70&text=📈%20CONTRIBUTION%20GRAPH&fontColor=0d0d0d&fontSize=26&fontAlignY=65" width="100%"/>
+## 📈 Contribution Graph
 
 <div align="center">
 
-[![Nilesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=1nilesh0837&theme=react-dark&hide_border=true&bg_color=0d1117&color=FF00FF&line=00FFFF&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Nilesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=1nilesh0837&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=7B68EE&line=7B68EE&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,100:FF00FF&height=70&text=🏆%20TROPHY%20CASE&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=1Nilesh0837&theme=radical&no-frame=true&no-bg=false&row=1&column=7&margin-w=8&margin-h=8" />
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FFFF&height=70&text=🎮%20FUN%20ZONE&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="220"/>
-
-**Wanna race?** Check out my [Snake Game live demo](#) or challenge me on [LeetCode](https://www.leetcode.com/1nilesh0837) ⚔️
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:00FF9F&height=70&text=🌐%20CONNECT%20WITH%20ME&fontColor=0d0d0d&fontSize=26&fontAlignY=65" width="100%"/>
+## 🌐 Connect With Me
 
 <div align="center">
 
@@ -213,12 +137,10 @@
 <div align="center">
 
 <!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00FF,50:00FFFF,100:00FF9F&height=100&text=%3E_%20Thanks%20for%20visiting%20%2F%20EOF&fontSize=22&fontColor=0d0d0d&fontAlignY=65&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,40:0a0a2e,70:001a1a,100:0d0d0d&height=80&text=%3E_%20Thanks%20for%20visiting%20%2F%20EOF&fontSize=20&fontColor=00ff9f&fontAlignY=55&descColor=7affcb" />
 
 **"Code is poetry written in logic"** ✨
 
 *If you like my work, drop a ⭐ on my repos — it keeps me going!*
-
-![Visitor Count](https://profile-counter.glitch.me/1Nilesh0837/count.svg)
 
 </div>
