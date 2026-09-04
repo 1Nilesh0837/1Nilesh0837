@@ -27,14 +27,22 @@
 
 </div>
 
-## 🧠 About Me
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF00FF,50:00FFFF,100:00FF9F&height=90&section=header&text=SYSTEM.ABOUT_ME&fontColor=0d0d0d&fontSize=38&fontAlignY=65&animation=twinkling" width="100%"/>
+</div>
 
-<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:16px; margin-left:20px; box-shadow: 0 0 25px #00ff9f;" />
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=FF00FF&center=true&vCenter=true&width=700&lines=%3E+ACCESSING+MAINFRAME...+%F0%9F%94%93;%3E+IDENTITY+VERIFIED%3A+NILESH+SAHOO+%E2%9C%85;%3E+LOADING+NEURAL+STACK...+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25;%3E+STATUS%3A+ONLINE+%F0%9F%9F%A2+%7C+READY+TO+SHIP+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+</div>
+
+<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:16px; margin-left:20px; box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ffff;" />
 
 ```python
 class NileshSahoo:
     def __init__(self):
-        self.name       = "Nilesh Sahoo"
+        self.name       = "⚡ Nilesh Sahoo ⚡"
         self.location   = "India 🇮🇳"
         self.role       = "Full-Stack + ML Developer"
         self.languages  = ["Python", "JavaScript", "Dart"]
@@ -43,19 +51,28 @@ class NileshSahoo:
         self.ml_stack   = ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "Seaborn", "OpenCV"]
         self.contact    = "nileshsahoo837@gmail.com"
         self.fun_fact   = "I turn caffeine into code ☕ → 💻"
+        self.power_level = "OVER 9000 🔥"
 
     def say_hi(self):
-        print("Thanks for dropping by! Let's build something awesome together 🚀")
+        print("⚡ Thanks for dropping by! Let's build something awesome together 🚀")
 
 me = NileshSahoo()
 me.say_hi()
 ```
 
+<div align="center">
+
+![](https://img.shields.io/badge/⚡_MODE-FUTURISTIC-FF00FF?style=for-the-badge&labelColor=0d0d0d)
+![](https://img.shields.io/badge/🧬_BUILT_WITH-CAFFEINE_%26_CODE-00FFFF?style=for-the-badge&labelColor=0d0d0d)
+![](https://img.shields.io/badge/🚀_STATUS-SHIPPING-00FF9F?style=for-the-badge&labelColor=0d0d0d)
+
+</div>
+
 <br clear="right"/>
 
 ---
 
-## ⚡ Quick Stats Marquee
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:FF00FF&height=70&text=⚡%20QUICK%20STATS&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
@@ -67,7 +84,7 @@ me.say_hi()
 
 ---
 
-## 🚀 Featured Projects
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FF9F&height=70&text=🚀%20FEATURED%20PROJECTS&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
@@ -85,7 +102,7 @@ me.say_hi()
 
 ---
 
-## 🛠️ Tech Stack
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,100:00FFFF&height=70&text=🛠️%20TECH%20STACK&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
@@ -116,20 +133,20 @@ me.say_hi()
 
 ---
 
-## 🐍 Contribution Snake
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FFFF&height=70&text=🐍%20CONTRIBUTION%20SNAKE&fontColor=0d0d0d&fontSize=26&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
-<!-- Animated eating-the-contribution-graph snake -->
+<!-- This renders blank until the snake.yml GitHub Action (below) has run at least once -->
 <img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
-<sub>💡 Set this up via the <a href="https://github.com/Platane/snk">Platane/snk</a> GitHub Action to auto-generate this animation daily.</sub>
+<sub>⚠️ Shows blank until the <b>snake.yml</b> Action below has run once on your profile repo.</sub>
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:FF00FF&height=70&text=📊%20GITHUB%20STATS&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
@@ -147,7 +164,7 @@ me.say_hi()
 
 ---
 
-## 📈 Contribution Graph
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FF9F&height=70&text=📈%20CONTRIBUTION%20GRAPH&fontColor=0d0d0d&fontSize=26&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
@@ -157,17 +174,17 @@ me.say_hi()
 
 ---
 
-## 🏆 Trophy Case
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,100:FF00FF&height=70&text=🏆%20TROPHY%20CASE&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=1Nilesh0837&theme=radical&no-frame=true&column=7&margin-w=15&margin-h=15" />
+<img src="https://github-profile-trophy.vercel.app/?username=1Nilesh0837&theme=radical&no-frame=true&no-bg=false&row=1&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
 ---
 
-## 🎮 Fun Zone
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00FF,100:00FFFF&height=70&text=🎮%20FUN%20ZONE&fontColor=0d0d0d&fontSize=28&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
@@ -179,7 +196,7 @@ me.say_hi()
 
 ---
 
-## 🌐 Connect With Me
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFFF,100:00FF9F&height=70&text=🌐%20CONNECT%20WITH%20ME&fontColor=0d0d0d&fontSize=26&fontAlignY=65" width="100%"/>
 
 <div align="center">
 
