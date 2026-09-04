@@ -15,37 +15,42 @@
 
 </div>
 
-<!-- Animated Neon Wave Transition -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:7928CA,100:00FF9F&height=120&section=header" width="100%"/>
+<!-- Animated Cyber Divider -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:8B5CF6,100:00FF9C&height=110&section=header" width="100%"/>
 
 <!-- ================================================================ -->
-<!-- SECTION 1: SYSTEM INITIALIZATION & BIOGRAPHY                      -->
+<!-- SECTION 01 — SYSTEM TERMINAL                                      -->
+<!-- ================================================================ -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/main/assets/terminal_system.svg" alt="Nilesh Sahoo AI System Terminal" width="100%" />
+
+</div>
+
+<br/>
+
+<!-- ================================================================ -->
+<!-- SECTION 02 — ABOUT ME                                             -->
 <!-- ================================================================ -->
 <div align="center">
 
 ```
-┌──(nilesh㉿neural-core)-[~/system/init]
-└─$ ./launch_agent.sh --mode=production --domain="AI/ML & Computer Vision"
-[✓] SYSTEM STATUS       : ONLINE [LATENCY: 12ms]
-[✓] COMPUTER VISION     : ACTIVE [YOLOv8/11 · DeepLabV3+ · MediaPipe]
-[✓] AGENTIC AI SYSTEMS  : ACTIVE [Graph Co-Pilots · LLaMA-3 · LangChain]
-[✓] FULL-STACK PIPELINES: READY  [FastAPI · React · TypeScript · Docker]
-[✓] MISSION DIRECTIVE   : ARCHITECTING REAL-WORLD INTELLIGENT SYSTEMS
+        NILESH.SAHOO
+        ──────────────────────────────────────────────────────────
+
+        AI/ML ENGINEER
+        COMPUTER VISION · AGENTIC AI · FULL-STACK ENGINEERING
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=%3E+INITIALIZING+NEURAL+PIPELINES...;%3E+TRACKING+DYNAMIC+ENTITIES+AT+60+FPS...;%3E+BUILDING+AGENTIC+KNOWLEDGE+GRAPHS...;%3E+DEPLOYING+EDGE-OPTIMIZED+DEEP+LEARNING...;%3E+TURNING+RESEARCH+INTO+PRODUCTION+CODE...)](https://git.io/typing-svg)
+> *"I build intelligent systems that turn visual data, machine learning models, and AI agents into real-world products."*
 
 <br/>
 
-### 👨‍💻 Nilesh Sahoo
-**AI/ML Engineer · Computer Vision Specialist · Full-Stack Builder**  
-*Passionate about engineering production-grade computer vision models, agentic AI frameworks, and scalable cloud applications.*
-
-<br/>
-
-[![Focus](https://img.shields.io/badge/FOCUS-COMPUTER%20VISION%20%26%20AI-00F0FF?style=for-the-badge&logo=openai&logoColor=black&labelColor=0d1117)](https://github.com/1Nilesh0837)
-[![Architecture](https://img.shields.io/badge/SYSTEMS-AGENTIC%20AI-7928CA?style=for-the-badge&logo=diagram-next&logoColor=white&labelColor=0d1117)](https://github.com/1Nilesh0837)
-[![Availability](https://img.shields.io/badge/STATUS-OPEN%20TO%20COLLABORATE-00FF9F?style=for-the-badge&logo=statuspage&logoColor=black&labelColor=0d1117)](mailto:nileshsahoo837@gmail.com)
+<a href="#vision_lab"><img src="https://img.shields.io/badge/DOMAINS-COMPUTER%20VISION%20%7C%20AI%20AGENTS-00F5FF?style=for-the-badge&labelColor=05070D" /></a>
+&nbsp;
+<a href="#hardware_ai"><img src="https://img.shields.io/badge/EXPERIMENTAL-HARDWARE%20%C3%97%20ROBOTICS-8B5CF6?style=for-the-badge&labelColor=05070D" /></a>
+&nbsp;
+<a href="mailto:nileshsahoo837@gmail.com"><img src="https://img.shields.io/badge/STATUS-%E2%97%8F%20ONLINE-00FF9C?style=for-the-badge&labelColor=05070D" /></a>
 
 </div>
 
@@ -54,81 +59,158 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 2: WHAT I BUILD                                          -->
+<!-- SECTION 03 — CURRENTLY BUILDING                                   -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:7928CA,100:00FF9F&height=55&text=%E2%9A%A1%2520WHAT%2520I%2520BUILD%2520%257C%2520CORE%2520CAPABILITIES&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,50:8B5CF6,100:00FF9C&height=50&text=%E2%9A%A1%20CURRENTLY_BUILDING.exe&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
 
-| Domain | Focus & Engineering Philosophy | Primary Technologies |
-| :--- | :--- | :--- |
-| 👁️ **Computer Vision & Video Analytics** | Real-time object detection, extreme class-imbalance semantic segmentation, sports trajectory analysis, and optical character recognition (OCR). | `OpenCV` `PyTorch` `YOLOv8/11` `DeepLabV3+` `MediaPipe` `Supervision` |
-| 🤖 **AI Agents & Knowledge Graphs** | Autonomous agentic reasoning loops, graph co-pilots for complex multi-hop investigation, LLaMA-3 legal risk overlays, and tool-calling pipelines. | `LangChain` `LLaMA-3` `Graph Neural Networks` `Vector DBs` `Gemini` |
-| 🌐 **Full-Stack Intelligent Platforms** | Low-latency inference endpoints, reactive dashboards, mobile cross-platform apps, and high-performance interactive interfaces. | `React` `Next.js` `TypeScript` `FastAPI` `Node.js` `Tailwind CSS` |
-| 🚀 **Production MLOps & Pipelines** | Automated data ingestion, experiment tracking, containerized microservices, and continuous deployment workflows. | `Docker` `FastAPI` `MLflow` `GitHub Actions` `Google Cloud / Vertex AI` |
-| 📊 **Data Science & Predictive Modeling** | End-to-end ensemble classification (CatBoost, LightGBM, XGBoost), Bayesian hyperparameter tuning (Optuna), and executive business intelligence. | `Scikit-learn` `Optuna` `Pandas` `SQL` `Power BI` `Streamlit` |
-| ⚡ **Intelligent Automation & Testing** | Zero-latency incident orchestration, headless end-to-end testing frameworks, and multi-source data extraction bots. | `Playwright` `Selenium` `Python Automation` `Linux` `REST APIs` |
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 01 // BASKETBALL VISION                                                         │
+│                                                                                 │
+│ PLAYER TRACKING       ● ACTIVE                                                  │
+│ BALL DETECTION        ● ACTIVE                                                  │
+│ COURT MAPPING         ● RESEARCH                                                │
+│                                                                                 │
+│ Computer Vision · Tracking · Analytics                                          │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 02 // FOOTBALL INTELLIGENCE                                                     │
+│                                                                                 │
+│ PLAYER ANALYTICS      ● BUILDING                                                │
+│ SPATIAL ANALYSIS      ● BUILDING                                                │
+│ TACTICAL INSIGHTS     ● RESEARCH                                                │
+│                                                                                 │
+│ CV · AI · Sports Analytics                                                      │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ 03 // REALITY COMPILER                                                          │
+│                                                                                 │
+│ INPUT  → VIDEO                                                                  │
+│            ↓                                                                    │
+│         PERCEPTION                                                              │
+│            ↓                                                                    │
+│         3D WORLD                                                                │
+│            ↓                                                                    │
+│       INTERACTIVE ENVIRONMENT                                                   │
+│                                                                                 │
+│ "Turn Any Video Into a 3D Interactive World"                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/main/assets/reality_compiler.png" alt="Reality Compiler 3D World Reconstruction System" width="100%" style="border-radius: 10px; border: 1.5px solid #00F5FF; box-shadow: 0 0 20px rgba(0, 245, 255, 0.2);" />
+
+<sub><i>REALITY COMPILER: Turn Any Video Into an Interactive 3D World · Point Cloud Reconstruction, 3D Bounding Boxes & Scene Graphs</i></sub>
+
+</div>
+
+<br/>
+
+---
+
+<a id="hardware_ai"></a>
+<!-- ================================================================ -->
+<!-- SECTION 04 — MY HARDWARE / ROBOTICS                              -->
+<!-- ================================================================ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:00F5FF,100:00FF9C&height=50&text=%F0%9F%A4%96%20HARDWARE%20%C3%97%20AI%20%7C%20PHYSICAL%20SYSTEMS&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+<table style="border-collapse: collapse; background: #05070D; border: 1.5px solid #00F5FF; border-radius: 12px; overflow: hidden; max-width: 780px;">
+  <thead>
+    <tr style="background: linear-gradient(90deg, #0F172A, #1E293B); border-bottom: 1px solid #334155;">
+      <th colspan="2" style="padding: 12px; font-family: monospace; color: #00F5FF; letter-spacing: 2px; font-size: 13.5px;">
+        ⚙️ HARDWARE LAB // PERSONAL ROBOTICS EXPERIMENT
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="padding: 18px; width: 45%; vertical-align: middle;">
+        <img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/main/assets/diy_robot.jpg" alt="DIY Custom Robot Built by Nilesh Sahoo" style="border-radius: 10px; border: 1px solid #38BDF8; box-shadow: 0 0 16px rgba(0, 245, 255, 0.4); max-width: 250px; width: 100%; height: auto;" />
+      </td>
+      <td style="padding: 20px 24px; vertical-align: middle; font-family: monospace; text-align: left;">
+        <h3 style="color: #F8FAFC; margin: 0 0 10px 0; font-size: 16px; letter-spacing: 1px;">EXPERIMENTAL HARDWARE SYSTEM</h3>
+        <p style="color: #94A3B8; font-size: 12.5px; margin-bottom: 18px; line-height: 1.6;">
+          Custom physical robot hand-crafted from discrete integrated circuits, resistors, capacitors, LED optical emitters, and an embedded micro-silicon base. Built as an exploration of physical hardware, electronic prototyping, and robotic morphology.
+        </p>
+        <div style="font-size: 13px; color: #E2E8F0; line-height: 2;">
+          <div><span style="color: #00FF9C;">●</span> <b>Electronics</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Hand-soldered discrete circuits</div>
+          <div><span style="color: #00F5FF;">●</span> <b>Embedded Systems</b> : Silicon logic &amp; IC architecture</div>
+          <div><span style="color: #8B5CF6;">●</span> <b>Robotics</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Bipedal chassis &amp; articulation</div>
+          <div><span style="color: #38BDF8;">●</span> <b>Computer Vision</b>   &nbsp;: Spatial perception sandbox</div>
+        </div>
+        <br/>
+        <div style="padding: 6px 14px; background: rgba(0, 245, 255, 0.12); border: 1px solid #00F5FF; border-radius: 6px; display: inline-block; color: #00F5FF; font-size: 11.5px; font-weight: 700;">
+          STATUS: ● ASSEMBLED &amp; ACTIVE
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<a id="vision_lab"></a>
+<!-- ================================================================ -->
+<!-- SECTION 05 — COMPUTER VISION LAB                                 -->
+<!-- ================================================================ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9C,50:00F5FF,100:8B5CF6&height=50&text=%F0%9F%91%81%EF%B8%8F%20%2FVISION_LAB%20%7C%20NEURAL%20PERCEPTION%20DASHBOARD&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/main/assets/vision_pipeline.svg" alt="Vision Pipeline Stream" width="100%" />
+
+</div>
+
+<br/>
+
+| PROJECT | INPUT | VISION TASK | STATUS | TECHNOLOGY |
+| :--- | :--- | :--- | :---: | :--- |
+| **🏀 Basketball Tracking** | Multi-Angle Match Video | Multi-Object Tracking &amp; Court Homography | `● ACTIVE` | `YOLOv8` `DeepSORT` `OpenCV` |
+| **⚽ Football Analytics** | Broadcast Match Feed | Spatial Team Heatmaps &amp; Passing Lanes | `● BUILDING` | `YOLO` `Optical Flow` `Perspective Transform` |
+| **🚜 Off-Road Segmentation** | Autonomous Rover Camera | Extreme Class-Imbalance Surface Masking | `● ACTIVE` | `DeepLabV3+` `ResNet-101` `PyTorch` |
+| **✋ Air Drawing Studio** | Live Webcam Stream | Real-Time Fingertip Gesture Tracking | `● ACTIVE` | `MediaPipe Hands` `OpenCV` `Python` |
+| **🦺 PPE &amp; Hazard Detection** | Workplace CCTV Stream | Real-Time Safety Gear Detection &amp; Alerts | `● ACTIVE` | `YOLOv8` `FastAPI` `Edge Inference` |
+| **🛣️ Urban Road Monitor** | Dashcam Stream | Structural Pothole &amp; Defect Segmentation | `● ACTIVE` | `Mask R-CNN` `OpenCV` `Pytorch` |
 
 <br/>
 
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 3: TECH STACK                                            -->
+<!-- SECTION 06 — AI SYSTEMS                                          -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7928CA,50:00F0FF,100:00FF9F&height=55&text=%F0%9F%9B%A0%EF%B8%8F%2520TECHNOLOGY%2520RADAR%2520%2526%2520ECOSYSTEM&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:00F5FF,100:00FF9C&height=50&text=%F0%9F%A7%A0%20%2FAI_SYSTEMS%20%7C%20INTELLIGENCE%20MODULES&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-#### 🧠 Machine Learning & Deep Learning
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=0d1117)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=0d1117)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0d1117)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=0d1117)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&labelColor=0d1117)
-
-<br/>
-
-#### 👁️ Computer Vision & Spatial AI
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&labelColor=0d1117)
-![YOLO](https://img.shields.io/badge/YOLOv8%20%2F%20v11-00FFFF?style=for-the-badge&logo=curseforge&logoColor=black&labelColor=0d1117)
-![Object Detection](https://img.shields.io/badge/Object_Detection-7928CA?style=for-the-badge&logo=target&logoColor=white&labelColor=0d1117)
-![Object Tracking](https://img.shields.io/badge/Object_Tracking-00FF9F?style=for-the-badge&logo=radar&logoColor=black&labelColor=0d1117)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-00C853?style=for-the-badge&logo=google&logoColor=white&labelColor=0d1117)
-![DeepLabV3+](https://img.shields.io/badge/Semantic_Segmentation-FF007A?style=for-the-badge&logo=segment&logoColor=white&labelColor=0d1117)
-
-<br/>
-
-#### ⚡ Backend & MLOps Pipelines
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0d1117)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=0d1117)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0d1117)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white&labelColor=0d1117)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0d1117)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0d1117)
-![REST APIs](https://img.shields.io/badge/REST_APIs-00F0FF?style=for-the-badge&logo=fastapi&logoColor=black&labelColor=0d1117)
-
-<br/>
-
-#### 🌐 Frontend & Interfaces
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0d1117)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white&labelColor=0d1117)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0d1117)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=0d1117)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=0d1117)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=0d1117)
-
-<br/>
-
-#### 🛠️ Developer Tooling & Cloud
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=0d1117)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0d1117)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&labelColor=0d1117)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black&labelColor=0d1117)
+| SYSTEM MODULE | ARCHITECTURAL HIGHLIGHT | STATUS | REPOSITORY |
+| :--- | :--- | :---: | :---: |
+| **╭────────────────────────────╮<br/>│ DRISHTI<br/>│ CRIME GRAPH CO-PILOT<br/>╰────────────────────────────╯** | AI investigation co-pilot for Karnataka State Police Datathon. Converts natural language queries into explainable graph-based insights, uncovering hidden multi-hop criminal syndicates and evidence paths. | `● ACTIVE` | [**[ VIEW SYSTEM → ]**](https://github.com/1Nilesh0837/Drishti) |
+| **╭────────────────────────────╮<br/>│ SAARTHI<br/>│ AGENTIC VISION TRUST LAYER<br/>╰────────────────────────────╯** | Agentic vision framework establishing an automated hygiene, compliance, and trust scoring engine for India's unorganized street vendor ecosystem. | `● ACTIVE` | [**[ VIEW SYSTEM → ]**](https://github.com/1Nilesh0837/SAARTHI-Agentic-Vision-Trust-Layer-for-India-s-Street-Food-Economy) |
+| **╭────────────────────────────╮<br/>│ INFRASENSE<br/>│ CITY RISK ENGINE<br/>╰────────────────────────────╯** | Fuses disparate municipal sensor telemetry, citizen grievance tickets, and climate patterns into explainable risk scores via Vertex AI, Gemini, and NVIDIA RAPIDS on Cloud Run. | `● ACTIVE` | [**[ VIEW SYSTEM → ]**](https://github.com/1Nilesh0837/InfraSense) |
+| **╭────────────────────────────╮<br/>│ KANOON-KI-ROSHNI<br/>│ WEBAR LEGAL AID<br/>╰────────────────────────────╯** | Zero-install WebAR legal assistant PWA. Direct camera at physical legal documents to receive color-coded risk alerts and regional clause explanations powered by LLaMA-3. | `● ACTIVE` | [**[ VIEW SYSTEM → ]**](https://github.com/1Nilesh0837/Kanoon-Ki-Roshni) |
+| **╭────────────────────────────╮<br/>│ OPERATION THE MOLE<br/>│ INSIDER THREAT ENGINE<br/>╰────────────────────────────╯** | Proactive insider threat detection combining linguistic deception analysis, behavioral anomaly detection, and dynamic organizational trust graphs. | `● ACTIVE` | [**[ VIEW SYSTEM → ]**](https://github.com/1Nilesh0837/Operation-THE-MOLE) |
 
 </div>
 
@@ -137,38 +219,42 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 4: COMPUTER VISION LAB                                   -->
+<!-- SECTION 07 — TECH STACK                                          -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,50:00F0FF,100:7928CA&height=55&text=%F0%9F%91%81%EF%B8%8F%2520COMPUTER%2520VISION%2520LAB%2520%257C%2520RESEARCH%2520DASHBOARD&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
-
-| Project & Focus | Status | Core Architecture | Capabilities & Real-World Impact | Pipeline Stage |
-| :--- | :---: | :--- | :--- | :---: |
-| [**🏀 Basketball Tracking System**](https://github.com/1Nilesh0837) | `🟢 ACTIVE` | YOLOv8 + DeepSORT + Court Homography | Real-time multi-player tracking, ball trajectory projection, possession calculation, and dynamic shooting-zone heatmaps. | Production Pipeline |
-| [**⚽ Football AI Spatial Analytics**](https://github.com/1Nilesh0837) | `🟢 ACTIVE` | YOLO + Optical Flow + Perspective Mapping | Tactical formation extraction, speed/acceleration calculation, ball speed tracking, and automated passing-lane analytics. | Active Research |
-| [**🚜 Off-Road Semantic Segmentation**](https://github.com/1Nilesh0837/Off-Road-Terrain-Semantic-Segmentation) | `🟢 ACTIVE` | DeepLabV3+ with ResNet-101 Backbone | High-precision pixel segmentation under extreme class imbalance across harsh terrain (mud, obstacles, gravel, vegetation). | Deployed & Evaluated |
-| [**✋ Air Drawing & Gesture Studio**](https://github.com/1Nilesh0837) | `🟢 ACTIVE` | MediaPipe Hands + OpenCV Matrix Engine | Sub-millisecond fingertip landmark tracking, dynamic brush mechanics, virtual canvas rendering with zero hardware sensor reliance. | Stable Prototype |
-| [**🦺 PPE & Hazard Detection AI**](https://github.com/1Nilesh0837/AI-Based-Real-Time-Detection-of-Safety-Equipment-and-Hazards) | `🟢 ACTIVE` | Custom-Trained YOLOv8 + FastAPI Edge | Real-time workplace safety compliance (helmets, vests, safety gear) with automated alert triggers on live CCTV feeds. | Production Ready |
-| [**🛣️ Urban Road Health Monitor**](https://github.com/1Nilesh0837/Urban-Road-Infrastructure-Health-Monitor-) | `🟢 ACTIVE` | Deep Segmentation Masking + OpenCV | Automated pavement structural health inspection detecting potholes, fissures, and surface decay from streaming camera input. | Civic Deployment |
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,50:8B5CF6,100:00FF9C&height=50&text=%F0%9F%A7%AC%20SYSTEM_ARCHITECTURE%20%7C%20TECH%20RADAR&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
 
 <br/>
 
----
-
-<!-- ================================================================ -->
-<!-- SECTION 5: FEATURED AI & AGENTIC PROJECTS                        -->
-<!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7928CA,50:FF007A,100:00F0FF&height=55&text=%F0%9F%A4%96%2520AI%2520PROJECTS%2520%2526%2520AGENTIC%2520SYSTEMS&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
-
 <div align="center">
 
-| Project | Description & Core Innovation | Tech Stack | Status / Link |
-| :--- | :--- | :--- | :---: |
-| **[Drishti: Crime Graph Co-Pilot](https://github.com/1Nilesh0837/Drishti)** | AI-powered investigation co-pilot for Karnataka State Police Datathon. Converts natural language queries into explainable graph-based insights, uncovering hidden multi-hop syndicate links, evidence paths, and generating automated case briefs. | `Python` `Graph Neural Nets` `LLMs` `Knowledge Graphs` | [![Repo](https://img.shields.io/badge/Explore_Repo-00F0FF?style=flat-square&logo=github&logoColor=black)](https://github.com/1Nilesh0837/Drishti) |
-| **[SAARTHI: Vision Trust Layer](https://github.com/1Nilesh0837/SAARTHI-Agentic-Vision-Trust-Layer-for-India-s-Street-Food-Economy)** | Agentic computer vision framework establishing an automated hygiene, compliance, and trust scoring system for India's unorganized street food vendor ecosystem. | `Agentic AI` `Computer Vision` `YOLO` `FastAPI` | [![Repo](https://img.shields.io/badge/Explore_Repo-7928CA?style=flat-square&logo=github&logoColor=white)](https://github.com/1Nilesh0837/SAARTHI-Agentic-Vision-Trust-Layer-for-India-s-Street-Food-Economy) |
-| **[InfraSense: City Risk Engine](https://github.com/1Nilesh0837/InfraSense)** | Unifies civic sensor telemetry, citizen grievance reports, and climate patterns into explainable, budget-aware infrastructure risk scores powered by Vertex AI, Gemini, and NVIDIA RAPIDS on Cloud Run. | `Vertex AI` `Gemini` `BigQuery` `Cloud Run` `RAPIDS` | [![Repo](https://img.shields.io/badge/Explore_Repo-00FF9F?style=flat-square&logo=github&logoColor=black)](https://github.com/1Nilesh0837/InfraSense) |
-| **[Kanoon-Ki-Roshni: WebAR Legal Aid](https://github.com/1Nilesh0837/Kanoon-Ki-Roshni)** | Zero-install WebAR legal assistance PWA for rural India. Direct camera at physical legal contracts or FIRs to see real-time color-coded risk bubbles and clause explanations in regional languages via LLaMA-3. | `WebAR` `LLaMA-3` `Edge OCR` `PWA` `JavaScript` | [![Repo](https://img.shields.io/badge/Explore_Repo-FF007A?style=flat-square&logo=github&logoColor=white)](https://github.com/1Nilesh0837/Kanoon-Ki-Roshni) |
-| **[GreenTravel Intelligence](https://github.com/1Nilesh0837/GreenTravel-Intelligence)** | Enterprise AI sustainability platform intercepting high-emission corporate travel before booking by correlating itinerary metadata, transit emissions, and spend analytics. | `Python` `Machine Learning` `Data Analytics` `Streamlit` | [![Repo](https://img.shields.io/badge/Explore_Repo-00F0FF?style=flat-square&logo=github&logoColor=black)](https://github.com/1Nilesh0837/GreenTravel-Intelligence) |
-| **[Operation THE MOLE](https://github.com/1Nilesh0837/Operation-THE-MOLE)** | AI-driven insider threat and breach prevention engine combining linguistic deception markers, behavioral anomaly detection, and a dynamic organizational trust graph. | `NLP` `Anomaly Detection` `Trust Graphs` `TypeScript` | [![Repo](https://img.shields.io/badge/Explore_Repo-7928CA?style=flat-square&logo=github&logoColor=white)](https://github.com/1Nilesh0837/Operation-THE-MOLE) |
+```
+                            AI ENGINE
+                                │
+               ┌────────────────┼────────────────┐
+               ↓                ↓                ↓
+             ML/CV            AGENTS            DATA
+               │                │                │
+            PyTorch            LLMs             SQL
+            YOLO            LangChain          Pandas
+            OpenCV          Vector DBs         NumPy
+               │                │                │
+               └────────────────┼────────────────┘
+                                ↓
+                           FULL STACK
+                                │
+                     FastAPI · React · Next.js
+```
+
+<br/>
+
+#### 🧠 Deep Learning &amp; Computer Vision
+`Python` · `PyTorch` · `TensorFlow` · `OpenCV` · `YOLOv8/11` · `DeepLabV3+` · `MediaPipe` · `Transformers` · `Scikit-learn`
+
+#### 🤖 AI Agents &amp; Intelligent Logic
+`LangChain` · `LLaMA-3` · `Gemini API` · `Knowledge Graphs` · `Vector DBs` · `Prompt Engineering` · `RAG Systems`
+
+#### ⚡ Full-Stack &amp; Production MLOps
+`FastAPI` · `Node.js` · `React` · `Next.js` · `TypeScript` · `Tailwind CSS` · `Docker` · `MLflow` · `PostgreSQL` · `Cloud Run`
 
 </div>
 
@@ -177,19 +263,44 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 6: GITHUB ANALYTICS                                      -->
+<!-- SECTION 08 — SYSTEM TELEMETRY                                    -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:7928CA,100:00FF9F&height=55&text=%F0%9F%93%8A%2520NEURAL%2520TELEMETRY%2520%2526%2520ACTIVITY%2520METRICS&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:00F5FF,100:00FF9C&height=50&text=%F0%9F%93%A1%20SYSTEM_TELEMETRY.log&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ TELEMETRY METRICS                                                CORE: ONLINE   │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ CURRENT MODE      : BUILD                                                       │
+│ PRIMARY DOMAIN    : AI / COMPUTER VISION                                        │
+│ SYSTEM STATUS     : ● ONLINE                                                    │
+│ EXPERIMENTS       : ACTIVE (Vision, Tracking, Spatial World)                    │
+│ CONTRIBUTIONS     : LIVE                                                        │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+---
+
+<!-- ================================================================ -->
+<!-- SECTION 09 — GITHUB COMMAND CENTER                               -->
+<!-- ================================================================ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,50:8B5CF6,100:00FF9C&height=50&text=%F0%9F%93%8A%20GITHUB%20COMMAND%20CENTER&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-<img height="185" src="https://github-readme-stats-fast.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=00ffff&icon_color=00ff9f&text_color=e2e8f0&border_radius=12" alt="Nilesh Sahoo GitHub Stats"/>
+<img height="185" src="https://github-readme-stats-fast.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=synthwave&hide_border=true&bg_color=05070D&title_color=00F5FF&icon_color=00FF9C&text_color=E2E8F0&border_radius=10" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img height="185" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=00ffff&text_color=00ff9f&border_radius=12" alt="Most Used Languages"/>
+<img height="185" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=synthwave&hide_border=true&bg_color=05070D&title_color=00F5FF&text_color=00FF9C&border_radius=10" alt="Top Languages"/>
 
 <br/><br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=nightowl&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF9F&currStreakLabel=00F0FF&sideLabels=7affcb&dates=8b949e&border_radius=12)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=nightowl&hide_border=true&background=05070D&ring=00F5FF&fire=00FF9C&currStreakLabel=00F5FF&sideLabels=8B5CF6&dates=94A3B8&border_radius=10)](https://git.io/streak-stats)
 
 </div>
 
@@ -198,15 +309,17 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 7: CONTRIBUTION ACTIVITY                                -->
+<!-- SECTION 10 — CONTRIBUTION STREAM                                 -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,50:00F0FF,100:7928CA&height=55&text=%F0%9F%90%8D%2520CONTRIBUTION%2520ACTIVITY%2520%2526%2520SNAKE%2520PIPELINE&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9C,50:00F5FF,100:8B5CF6&height=50&text=%F0%9F%90%8D%20CONTRIBUTION_STREAM&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/output/github-contribution-grid-snake-dark.svg" alt="Contribution Grid Stream" width="100%" />
 
-<sub><i>⚡ Powered by GitHub Actions contribution grid pipeline · Consistently committing & shipping real-world systems</i></sub>
+<sub><i>Continuous contribution pipeline: tracking commits, architecture builds, and model iterations.</i></sub>
 
 </div>
 
@@ -215,19 +328,22 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 8: CURRENTLY BUILDING                                    -->
+<!-- SECTION 11 — RESEARCH TERMINAL                                   -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7928CA,50:00F0FF,100:00FF9F&height=55&text=%E2%9A%A1%2520CURRENTLY_BUILDING.exe&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:00F5FF,100:00FF9C&height=50&text=%F0%9F%94%AC%20%2FRESEARCH%20%7C%20ACTIVE%20MODULES&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
 
 ```
-┌───────────────────────────────────────────────────────────────────────────────────┐
-│ ACTIVE PIPELINES & WORKLOAD ALLOCATION                             STATUS: STABLE │
-├───────────────────────────────────────────────────────────────────────────────────┤
-│ [01] Computer Vision Systems (Tracking, Potholes & PPE)    [██████████████░░░] 85%│
-│ [02] Agentic AI Workflows & Graph Co-Pilots (Drishti/LLaMA)[████████████░░░░] 75%│
-│ [03] Full-Stack Intelligent Cloud Apps (FastAPI + React)   [██████████████░░░] 80%│
-│ [04] Multimodal Edge Reasoning (Gemma & Lightweight OCR)   [███████████░░░░░░] 65%│
-└───────────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ ACTIVE RESEARCH VECTORS                                                         │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ [01] MULTIMODAL_PERCEPTION    : Vision-Language Models & Open-Vocabulary Ground │
+│ [02] 3D_WORLD_RECONSTRUCTION  : Monocular Video to Interactive 3D Spatial Scenes│
+│ [03] AGENTIC_AI               : Multi-Hop Tool Calling & Graph Reasoning Loops  │
+│ [04] SPORTS_INTELLIGENCE      : Trajectory Physics, Homography & Formation AI   │
+│ [05] VIDEO_UNDERSTANDING      : Real-Time Event Localization & Edge Inference   │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
@@ -235,35 +351,62 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 9: LEARNING & RESEARCH ROADMAP                           -->
+<!-- SECTION 12 — ACHIEVEMENTS                                        -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:7928CA,100:FF007A&height=55&text=%F0%9F%8E%AF%2520RESEARCH%2520ROADMAP%2520%2526%2520EXPLORATION&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,50:8B5CF6,100:00FF9C&height=50&text=%F0%9F%8F%86%20VERIFIED_ACHIEVEMENTS.log&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
 
-| Core Vector | Focus & Ongoing Experiments | Key Targets |
-| :--- | :--- | :--- |
-| 🔬 **Vision-Language Models (VLMs)** | Exploring Grounding DINO and open-vocabulary object grounding for autonomous robotics and dynamic scene comprehension. | `Open-Set Detection` `Multimodal Alignment` |
-| 🏀 **3D Sports Perception & Tracking** | Advancing court homography calibration, occluded player re-identification, and ball trajectory physics models. | `Kalman Filtering` `DeepSORT` `Homography` |
-| 🧠 **Autonomous Agentic Architectures** | Investigating hierarchical task planning, graph memory retrieval, and self-verifying code execution loops. | `Tool Calling` `Knowledge Graphs` `RAG` |
-| ⚡ **Low-Latency Edge Inference** | Benchmarking TensorRT, ONNX Runtime engines, and INT8 model quantization for edge camera deployments. | `TensorRT` `ONNX` `Edge MLOps` |
+<br/>
+
+```
+2026
+ │
+ ├── 🎖️ Karnataka State Police Datathon 2026 ───── Drishti: Crime Graph Co-Pilot
+ │
+ ├── 🏆 VISIONARY Hackathon 2.0 ────────────────── Certificate of Achievement in AI/ML
+ │
+ ├── 🎖️ Convolve 4.0 (Pan-IIT Hackathon) ──────── Semi-Finalist (Generative AI Track)
+ │
+ ├── 🚀 GenAI Exchange Hackathon (APAC) ────────── Generative AI Prototype Finalist
+ │
+ ├── 🏅 MSH Hackathon ──────────────────────────── Off-Road Terrain Segmentation Pipeline
+ │
+ └── 📊 Kaggle Community Contributor ───────────── Competitive Machine Learning Notebooks
+```
 
 <br/>
 
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 10: ACHIEVEMENTS & RECOGNITIONS                          -->
+<!-- SECTION 13 — CONNECT                                             -->
 <!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF007A,50:7928CA,100:00F0FF&height=55&text=%F0%9F%8F%86%2520HONORS%2520%2526%2520VERIFIED%2520ACHIEVEMENTS&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9C,50:00F5FF,100:8B5CF6&height=50&text=%F0%9F%8C%90%20ESTABLISH_CONNECTION&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-| Milestone | Organizer / Context | Project / Domain |
-| :--- | :--- | :--- |
-| 🎖️ **Karnataka State Police Datathon 2026** | KSP Datathon | Developed **Drishti**: AI Crime Graph Co-Pilot for multi-hop criminal syndicate discovery. |
-| 🏆 **VISIONARY Hackathon 2.0** | National Level AI Hackathon | **Certificate of Achievement** for building impactful AI & Computer Vision prototypes. |
-| 🚀 **GenAI Exchange Hackathon** | APAC Edition / Google Cloud | Prototype submission & finalist in scalable enterprise generative AI solutions. |
-| 🏅 **MSH Hackathon Finalist** | Machine Learning Hackathon | Engineered high-accuracy semantic segmentation pipeline for off-road environments. |
-| 📊 **Kaggle Contributor & ML Practitioner** | Kaggle Global Community | Active notebook contributor in predictive modeling, tabular ensembles, and computer vision. |
+```
+        ESTABLISH_CONNECTION
+
+        GitHub   : https://github.com/1Nilesh0837
+        LinkedIn : https://linkedin.com/in/nilesh-sahoo-b032ab289
+        Email    : nileshsahoo837@gmail.com
+        Kaggle   : https://kaggle.com/nileshsahoo07
+        LeetCode : https://leetcode.com/u/1nilesh0837
+```
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=05070D)](https://linkedin.com/in/nilesh-sahoo-b032ab289)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=05070D)](https://github.com/1Nilesh0837)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=05070D)](mailto:nileshsahoo837@gmail.com)
+&nbsp;
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=05070D)](https://kaggle.com/nileshsahoo07)
+&nbsp;
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=05070D)](https://leetcode.com/u/1nilesh0837)
 
 </div>
 
@@ -272,44 +415,31 @@
 ---
 
 <!-- ================================================================ -->
-<!-- SECTION 11: CONNECT & NETWORK                                    -->
-<!-- ================================================================ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9F,50:00F0FF,100:7928CA&height=55&text=%F0%9F%8C%90%2520ESTABLISH%2520CONNECTION%2520%252F%2520NETWORK&fontColor=ffffff&fontSize=20&fontAlignY=65" width="100%"/>
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/nilesh-sahoo-b032ab289)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/1Nilesh0837)
-[![Gmail](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:nileshsahoo837@gmail.com)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0d1117)](https://kaggle.com/nileshsahoo07)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0d1117)](https://leetcode.com/u/1nilesh0837)
-[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white&labelColor=0d1117)](https://www.hackerearth.com/@nileshsahoo837)
-
-</div>
-
-<br/>
-
----
-
-<!-- ================================================================ -->
-<!-- FINAL ANIMATED FOOTER                                            -->
+<!-- FINAL FOOTER                                                     -->
 <!-- ================================================================ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:7928CA,100:00FF9F&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:8B5CF6,100:00FF9C&height=90&section=footer"/>
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────┐
-│ [TRANSMISSION COMPLETED]                                                       │
-│ > connection established...                                                    │
-│ > engineering intelligent models that solve real problems...                   │
-│ > see you in the next commit ⚡                                                │
-└────────────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│                                                               │
+│ nilesh@github:~$ system.status                                │
+│                                                               │
+│ AI ................. ONLINE                                   │
+│ VISION ............. ONLINE                                   │
+│ HARDWARE ........... ACTIVE                                   │
+│ EXPERIMENTS ........ RUNNING                                  │
+│ IDEAS .............. UNLIMITED                                │
+│                                                               │
+│ nilesh@github:~$ ./keep_building                              │
+│                                                               │
+└───────────────────────────────────────────────────────────────┘
 ```
 
-**"Turning raw data and optical streams into scalable real-world intelligence."** 🚀
+**"Turning raw optical streams, spatial geometry, and AI agents into real-world systems."** 🚀
 
-*⭐ If you find any of my repositories insightful or useful, consider dropping a star!*
+*⭐ Drop a star on my repositories if you find my engineering builds inspiring!*
 
 <br/>
 
