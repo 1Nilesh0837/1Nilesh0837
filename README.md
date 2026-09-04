@@ -17,9 +17,19 @@
 
 ---
 
+<!-- Animated wave divider -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=&fontSize=0" width="100%"/>
+
+<div align="center">
+
+<!-- Matrix-style rain gif for flair -->
+<img src="https://media.giphy.com/media/26ufp2VOtCXPGaSVK/giphy.gif" width="100%" height="120" style="border-radius:12px; object-fit:cover;"/>
+
+</div>
+
 ## 🧠 About Me
 
-<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:10px; margin-left:20px;" />
+<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:16px; margin-left:20px; box-shadow: 0 0 25px #00ff9f;" />
 
 ```python
 class NileshSahoo:
@@ -45,17 +55,31 @@ me.say_hi()
 
 ---
 
+## ⚡ Quick Stats Marquee
+
+<div align="center">
+
+![](https://forthebadge.com/images/badges/built-with-love.svg)
+![](https://forthebadge.com/images/badges/powered-by-coffee.svg)
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+</div>
+
+---
+
 ## 🚀 Featured Projects
 
 <div align="center">
 
-| 🌾 KisanDB | 🚑 SmartCare |
-|:---:|:---:|
-| AI-powered farming platform for India | AI emergency response platform |
-| ML price prediction (88.67% accuracy) | One-touch SOS + Live GPS + Drone support |
-| Real-time weather advisories | Telemedicine + Doctor/Ambulance connection |
-| `Python` `ML` `AI` | `HTML` `GPS` `AI` |
-| [View Repo →](https://github.com/1Nilesh0837/kisandb) | [View Repo →](https://github.com/1Nilesh0837/SmartCare) |
+<img src="https://media.giphy.com/media/L1R1tvL9v7GVe/giphy.gif" width="60"/>
+
+| 🍲 SAARTHI | 🌱 GreenTravel Intelligence | 🛣️ Urban Road Infra Health Monitor |
+|:---:|:---:|:---:|
+| Agentic vision + trust layer for India's street food economy | AI-driven sustainable/eco-aware travel planning | Computer-vision system for monitoring road infrastructure health |
+| Vision-based trust & hygiene scoring for vendors | Smart recommendations balancing travel & environmental impact | Detects road damage (potholes/cracks) from image data |
+| Agentic AI pipeline for real-world street vendor use case | Data-driven "green" itinerary intelligence | Supports proactive civic maintenance & safety |
+| `Agentic AI` `Computer Vision` `Trust Systems` | `AI` `Sustainability` `Travel Tech` | `Computer Vision` `ML` `Infrastructure` |
+| [![View Repo](https://img.shields.io/badge/View_Repo-00FF9F?style=for-the-badge&logo=github&logoColor=black)](https://github.com/1Nilesh0837/SAARTHI-Agentic-Vision-Trust-Layer-for-India-s-Street-Food-Economy) | [![View Repo](https://img.shields.io/badge/View_Repo-FF3CAC?style=for-the-badge&logo=github&logoColor=black)](https://github.com/1Nilesh0837/GreenTravel-Intelligence) | [![View Repo](https://img.shields.io/badge/View_Repo-00FFFF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/1Nilesh0837/Urban-Road-Infrastructure-Health-Monitor-) |
 
 </div>
 
@@ -92,19 +116,32 @@ me.say_hi()
 
 ---
 
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<!-- Animated eating-the-contribution-graph snake -->
+<img src="https://raw.githubusercontent.com/1Nilesh0837/1Nilesh0837/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
+<sub>💡 Set this up via the <a href="https://github.com/Platane/snk">Platane/snk</a> GitHub Action to auto-generate this animation daily.</sub>
+
+</div>
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff9f&icon_color=00ff9f&text_color=7affcb&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff00ff&icon_color=00ffff&text_color=00ff9f&border_radius=10"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9f&text_color=7affcb&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=ff00ff&text_color=00ffff&border_radius=10"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=00ff9f&fire=00ff9f&currStreakLabel=00ff9f&sideLabels=7affcb&dates=555555&border_radius=10)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=nightowl&hide_border=true&background=0D1117&ring=FF00FF&fire=00FFFF&currStreakLabel=00FF9F&sideLabels=7affcb&dates=555555&border_radius=10)](https://git.io/streak-stats)
 
 </div>
 
@@ -114,7 +151,29 @@ me.say_hi()
 
 <div align="center">
 
-[![Nilesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=1nilesh0837&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=7B68EE&line=7B68EE&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Nilesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=1nilesh0837&theme=react-dark&hide_border=true&bg_color=0d1117&color=FF00FF&line=00FFFF&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🏆 Trophy Case
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=1Nilesh0837&theme=radical&no-frame=true&column=7&margin-w=15&margin-h=15" />
+
+</div>
+
+---
+
+## 🎮 Fun Zone
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="220"/>
+
+**Wanna race?** Check out my [Snake Game live demo](#) or challenge me on [LeetCode](https://www.leetcode.com/1nilesh0837) ⚔️
 
 </div>
 
@@ -137,10 +196,12 @@ me.say_hi()
 <div align="center">
 
 <!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,40:0a0a2e,70:001a1a,100:0d0d0d&height=80&text=%3E_%20Thanks%20for%20visiting%20%2F%20EOF&fontSize=20&fontColor=00ff9f&fontAlignY=55&descColor=7affcb" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00FF,50:00FFFF,100:00FF9F&height=100&text=%3E_%20Thanks%20for%20visiting%20%2F%20EOF&fontSize=22&fontColor=0d0d0d&fontAlignY=65&animation=fadeIn" />
 
 **"Code is poetry written in logic"** ✨
 
 *If you like my work, drop a ⭐ on my repos — it keeps me going!*
+
+![Visitor Count](https://profile-counter.glitch.me/1Nilesh0837/count.svg)
 
 </div>
