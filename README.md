@@ -33,32 +33,34 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=FF00FF&center=true&vCenter=true&width=700&lines=%3E+ACCESSING+MAINFRAME...+%F0%9F%94%93;%3E+IDENTITY+VERIFIED%3A+NILESH+SAHOO+%E2%9C%85;%3E+LOADING+NEURAL+STACK...+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25;%3E+STATUS%3A+ONLINE+%F0%9F%9F%A2+%7C+READY+TO+SHIP+%F0%9F%9A%80)](https://git.io/typing-svg)
+```
+
+    ⣠⣴⣾⣿⣿⣷⣦⡀           nilesh@github.com
+   ⣾⣿⣿⣿⣿⣿⣿⣿⣷          ────────────────────────────
+   ⣿⣿⠟⠋⠉⠉⠻⢿⣿⣿          OS: India 🇮🇳
+   ⢹⣿⣷      Nilesh     Host: Full-Stack + ML Developer
+    ⠻⣿⣿⣶⣤⣤⣶⣿⣿⠟         Kernel: Python 3.x / Node.js
+     ⠈⠛⠿⠿⠿⠛⠉           Uptime: 3+ yrs of shipping code
+                        Shell: zsh + VS Code + late nights
+
+    ────────────────────────────────────────────────
+    Languages.Programming:  Python, JavaScript, Dart
+    Languages.Frontend:     React, React Native, Flutter, Tailwind CSS
+    Languages.Backend:      Node.js
+    Languages.ML:           TensorFlow, PyTorch, Scikit-learn, Pandas, OpenCV
+    ────────────────────────────────────────────────
+    Hobbies.Software:       Building AI that matters, Open Source
+    Hobbies.Hardware:       Debugging at 2 AM, Overclocking side-projects
+    ────────────────────────────────────────────────
+    Contact.Email:          nileshsahoo837@gmail.com
+    Contact.LinkedIn:       /in/nilesh-sahoo-b032ab289
+    ────────────────────────────────────────────────
+    GitHub Stats:  Repos: 12+  │  Stars: 4  │  Followers: 0
+    Fun Fact:      I turn caffeine into code ☕ → 💻
+
+```
 
 </div>
-
-<img align="right" alt="Coding Cat" width="380" src="https://media.giphy.com/media/HUplkVCPY7jTW/giphy.gif" style="border-radius:16px; margin-left:20px; box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ffff;" />
-
-```python
-class NileshSahoo:
-    def __init__(self):
-        self.name       = "⚡ Nilesh Sahoo ⚡"
-        self.location   = "India 🇮🇳"
-        self.role       = "Full-Stack + ML Developer"
-        self.languages  = ["Python", "JavaScript", "Dart"]
-        self.frontend   = ["React", "React Native", "Flutter", "Tailwind CSS"]
-        self.backend    = ["Node.js"]
-        self.ml_stack   = ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "Seaborn", "OpenCV"]
-        self.contact    = "nileshsahoo837@gmail.com"
-        self.fun_fact   = "I turn caffeine into code ☕ → 💻"
-        self.power_level = "OVER 9000 🔥"
-
-    def say_hi(self):
-        print("⚡ Thanks for dropping by! Let's build something awesome together 🚀")
-
-me = NileshSahoo()
-me.say_hi()
-```
 
 <div align="center">
 
@@ -67,8 +69,6 @@ me.say_hi()
 ![](https://img.shields.io/badge/🚀_STATUS-SHIPPING-00FF9F?style=for-the-badge&labelColor=0d0d0d)
 
 </div>
-
-<br clear="right"/>
 
 ---
 
