@@ -411,7 +411,7 @@ def precompute_data():
         rng = np.random.default_rng(SEED)
 
         # Portrait points
-        pp = portrait_points(theme, rng)
+        pp, active_grid = portrait_points(theme, rng)
         np.save(DATA / f"portrait-{theme}.npy", pp)
         print(f"  portrait-{theme}: {len(pp)} points")
 
