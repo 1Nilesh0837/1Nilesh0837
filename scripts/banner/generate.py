@@ -25,8 +25,8 @@ from scipy.spatial.distance import cdist
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "assets/source/photo.png"
-PATTERN1_SRC = ROOT / "assets/source/pattern1.jpg"
-PATTERN2_SRC = ROOT / "assets/source/pattern 2.jpg"
+PATTERN1_SRC = ROOT / "assets/source/2.jpg"
+PATTERN2_SRC = ROOT / "assets/source/3.jpg"
 ASSETS = ROOT / "assets"
 LOGOS = Path(__file__).resolve().parent / "logos"
 DATA = Path(__file__).resolve().parent / "data"
@@ -274,7 +274,7 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
 
 
 def dither_pattern(path: Path, theme: str, invert_dark: bool = False,
-                   invert_light: bool = True) -> np.ndarray:
+                   invert_light: bool = True, top_anchor: bool = False) -> np.ndarray:
     """Load, center-crop to 300:340, and dither a pattern image."""
     if not path.exists():
         print(f"  [!] Pattern file not found: {path}")
@@ -291,7 +291,7 @@ def dither_pattern(path: Path, theme: str, invert_dark: bool = False,
         crop = img.crop((left, 0, left + crop_w, h))
     else:
         crop_h = int(w / target_ratio)
-        top = (h - crop_h) // 2
+        top = 0 if top_anchor else (h - crop_h) // 2
         crop = img.crop((0, top, w, top + crop_h))
 
     crop = crop.resize((PORTRAIT_W, PORTRAIT_H), Image.Resampling.LANCZOS)
@@ -526,12 +526,12 @@ def render_banner(theme: str) -> str:
         f'  <text x="{lp_x+lp_w-14}" y="{lp_y+24}" fill="{c["muted"]}">\n'
         f'    <animate attributeName="opacity" dur="6s" repeatCount="indefinite" '
         f'values="0;0;1;1;0;0" keyTimes="0;0.29;0.33;0.62;0.66;1.0"/>\n'
-        f'    02/03 · SPIDER.PIX\n'
+        f'    02/03 · SMISKI.RAW\n'
         f'  </text>\n'
         f'  <text x="{lp_x+lp_w-14}" y="{lp_y+24}" fill="{c["muted"]}">\n'
         f'    <animate attributeName="opacity" dur="6s" repeatCount="indefinite" '
         f'values="0;0;1;1;0;0" keyTimes="0;0.62;0.66;0.96;0.99;1.0"/>\n'
-        f'    03/03 · BUTTERFLY.XRAY\n'
+        f'    03/03 · EIFFEL.TOWER\n'
         f'  </text>\n'
         f'</g>\n'
     )
@@ -566,12 +566,12 @@ def render_banner(theme: str) -> str:
     total_portrait = len(pp)
     d_photo = get_runs_from_active(active_grid, PORTRAIT_X, PORTRAIT_Y) if active_grid is not None else ""
 
-    # Pattern 1 (Spider-Man pixel art)
-    active_p1 = dither_pattern(PATTERN1_SRC, theme, invert_dark=True, invert_light=True)
+    # Pattern 1 (Smiski figure with headphones - 2.jpg)
+    active_p1 = dither_pattern(PATTERN1_SRC, theme, invert_dark=False, invert_light=True)
     d_p1 = get_runs_from_active(active_p1, PORTRAIT_X, PORTRAIT_Y)
 
-    # Pattern 2 (Butterflies in lungs)
-    active_p2 = dither_pattern(PATTERN2_SRC, theme, invert_dark=False, invert_light=True)
+    # Pattern 2 (Green Eiffel Tower at night - 3.jpg)
+    active_p2 = dither_pattern(PATTERN2_SRC, theme, invert_dark=False, invert_light=False, top_anchor=True)
     d_p2 = get_runs_from_active(active_p2, PORTRAIT_X, PORTRAIT_Y)
 
     # Frame 1: Nilesh Sahoo Portrait (Active 0.0s..2.0s in 6.0s cycle)
