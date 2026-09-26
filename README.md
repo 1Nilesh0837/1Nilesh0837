@@ -128,43 +128,31 @@
 
 <div align="center">
 
-<img width="100%" src="assets/socials/comms-header.svg" alt="Connect & Say Hello // Nilesh Sahoo" />
+<img width="100%" src="assets/socials/cute-header.svg" alt="Connect & Say Hello · Nilesh Sahoo" />
 
-<br/>
+<p align="center">
+  <a href="https://linkedin.com/in/nilesh-sahoo-b032ab289" target="_blank">
+    <img width="49%" src="assets/socials/cute-linkedin.svg" alt="LinkedIn · Nilesh Sahoo" />
+  </a>
+  <a href="https://www.leetcode.com/1nilesh0837" target="_blank">
+    <img width="49%" src="assets/socials/cute-leetcode.svg" alt="LeetCode · 1nilesh0837" />
+  </a>
+</p>
 
-<table align="center" border="0" cellpadding="0" cellspacing="8" style="border-collapse: collapse; border: none; margin: 12px auto;">
-  <tr>
-    <td align="center">
-      <a href="https://linkedin.com/in/nilesh-sahoo-b032ab289" target="_blank">
-        <img width="395" src="assets/socials/card-linkedin.svg" alt="LinkedIn · Nilesh Sahoo" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.leetcode.com/1nilesh0837" target="_blank">
-        <img width="395" src="assets/socials/card-leetcode.svg" alt="LeetCode · 1nilesh0837" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://kaggle.com/nileshsahoo07" target="_blank">
-        <img width="395" src="assets/socials/card-kaggle.svg" alt="Kaggle · nileshsahoo07" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.hackerearth.com/@nileshsahoo837" target="_blank">
-        <img width="395" src="assets/socials/card-hackerearth.svg" alt="HackerEarth · nileshsahoo837" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="mailto:nileshsahoo837@gmail.com" target="_blank">
-        <img width="802" src="assets/socials/card-gmail.svg" alt="Direct Email Inquiry · nileshsahoo837@gmail.com" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://kaggle.com/nileshsahoo07" target="_blank">
+    <img width="49%" src="assets/socials/cute-kaggle.svg" alt="Kaggle · nileshsahoo07" />
+  </a>
+  <a href="https://www.hackerearth.com/@nileshsahoo837" target="_blank">
+    <img width="49%" src="assets/socials/cute-hackerearth.svg" alt="HackerEarth · nileshsahoo837" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="mailto:nileshsahoo837@gmail.com" target="_blank">
+    <img width="98.5%" src="assets/socials/cute-gmail.svg" alt="Direct Email Inquiry · nileshsahoo837@gmail.com" />
+  </a>
+</p>
 
 </div>
 

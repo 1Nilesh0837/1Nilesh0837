@@ -2,12 +2,12 @@
 """Generate Cute, Light-Theme, Bright Colorful Social Cards for GitHub Profile README.
 
 Outputs into:
-    assets/socials/comms-header.svg
-    assets/socials/card-linkedin.svg
-    assets/socials/card-leetcode.svg
-    assets/socials/card-kaggle.svg
-    assets/socials/card-hackerearth.svg
-    assets/socials/card-gmail.svg
+    assets/socials/cute-header.svg
+    assets/socials/cute-linkedin.svg
+    assets/socials/cute-leetcode.svg
+    assets/socials/cute-kaggle.svg
+    assets/socials/cute-hackerearth.svg
+    assets/socials/cute-gmail.svg
 """
 
 import json
@@ -172,15 +172,15 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     icons = get_icons()
 
-    # 1. Header Card
+    # 1. Header Card (cute-header.svg)
     header_svg = build_cute_header()
-    (OUT_DIR / "comms-header.svg").write_text(header_svg, encoding="utf-8")
-    print("Generated comms-header.svg (Cute Light Theme)")
+    (OUT_DIR / "cute-header.svg").write_text(header_svg, encoding="utf-8")
+    print("Generated cute-header.svg")
 
     # 5 Bright Different Cute Colors
     cards = [
         {
-            "filename": "card-linkedin.svg",
+            "filename": "cute-linkedin.svg",
             "icon_name": "linkedin",
             "title": "LINKEDIN",
             "subtitle": "Professional Network & Career Besties",
@@ -193,7 +193,7 @@ def main():
             "is_wide": False,
         },
         {
-            "filename": "card-leetcode.svg",
+            "filename": "cute-leetcode.svg",
             "icon_name": "leetcode",
             "title": "LEETCODE",
             "subtitle": "Daily Brain Puzzles · 197+ Solved",
@@ -206,7 +206,7 @@ def main():
             "is_wide": False,
         },
         {
-            "filename": "card-kaggle.svg",
+            "filename": "cute-kaggle.svg",
             "icon_name": "kaggle",
             "title": "KAGGLE",
             "subtitle": "Data Science & Machine Learning Hub",
@@ -219,7 +219,7 @@ def main():
             "is_wide": False,
         },
         {
-            "filename": "card-hackerearth.svg",
+            "filename": "cute-hackerearth.svg",
             "icon_name": "hackerearth",
             "title": "HACKEREARTH",
             "subtitle": "Coding Contests & Problem Solving",
@@ -232,7 +232,7 @@ def main():
             "is_wide": False,
         },
         {
-            "filename": "card-gmail.svg",
+            "filename": "cute-gmail.svg",
             "icon_name": "gmail",
             "title": "DIRECT EMAIL INQUIRY",
             "subtitle": "Freelance, fun collabs, research or casual talks",
