@@ -112,12 +112,12 @@
 
 ---
 
-## 📈 Contribution Velocity & Activity Stream
+## 🎮 Contribution Grid · Pac-Man Edition
 
 <div align="center">
 
 <a href="https://github.com/1Nilesh0837">
-  <img width="100%" src="https://activity-graph.vercel.app/graph?username=1Nilesh0837&bg_color=0A101F&color=00FF9F&line=00FF9F&point=38BDF8&area=true&area_color=00FF9F&hide_border=true&custom_title=CONTRIBUTION%20VELOCITY%20STREAM&radius=10" alt="Nilesh's Contribution Velocity Stream" />
+  <img width="100%" src="assets/github-pacman.svg" alt="Nilesh's Pac-Man Contribution Grid" />
 </a>
 
 </div>
