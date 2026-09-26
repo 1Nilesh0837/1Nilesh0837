@@ -1,32 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 92" width="100%" height="92" style="background:#0A101F; font-family:ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 94" width="100%" height="94" style="background:transparent; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
 <defs>
-  <filter id="glow-gmail" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur stdDeviation="2.5" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <linearGradient id="cute-bg-gmail" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="65%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#FFF1F2"/>
+  </linearGradient>
+  <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="115%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-opacity="0.06"/>
   </filter>
-  <linearGradient id="grad-gmail" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#EF4444" stop-opacity="0.35"/>
-    <stop offset="40%" stop-color="#0E172A" stop-opacity="0.95"/>
-    <stop offset="100%" stop-color="#0A101F" stop-opacity="1"/>
-  </linearGradient>
-  <linearGradient id="border-gmail" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#EF4444" stop-opacity="0.9"/>
-    <stop offset="35%" stop-color="#EF4444" stop-opacity="0.4"/>
-    <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.4"/>
-  </linearGradient>
 </defs>
-<rect width="810" height="92" rx="12" fill="url(#grad-gmail)" stroke="url(#border-gmail)" stroke-width="1.2"/>
-<path d="M12,6 L6,6 L6,12" stroke="#EF4444" stroke-width="1" fill="none" opacity="0.6"/>
-<path d="M798,6 L804,6 L804,12" stroke="#EF4444" stroke-width="1" fill="none" opacity="0.4"/>
-<path d="M12,86 L6,86 L6,80" stroke="#EF4444" stroke-width="1" fill="none" opacity="0.4"/>
-<path d="M798,86 L804,86 L804,80" stroke="#EF4444" stroke-width="1" fill="none" opacity="0.4"/>
-<rect x="16" y="19.0" width="54" height="54" rx="10" fill="#0D1627" stroke="#EF4444" stroke-width="1" stroke-opacity="0.6"/>
-<g transform="translate(28.0, 31.0) scale(1.25)" filter="url(#glow-gmail)">
-  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#EF4444"/>
+<rect width="810" height="94" rx="18" fill="url(#cute-bg-gmail)" stroke="#E11D48" stroke-width="1.6" filter="url(#card-shadow)"/>
+<rect x="16" y="20.0" width="54" height="54" rx="14" fill="#FFE4E6" stroke="#E11D48" stroke-width="1.2"/>
+<g transform="translate(28.0, 32.0) scale(1.25)">
+  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#E11D48"/>
 </g>
-<text x="84" y="28" fill="#7A9EC5" font-size="8.5" font-weight="600" letter-spacing="1">CH-05 // ENCRYPTED INBOX</text>
-<text x="84" y="47" fill="#FFFFFF" font-size="13.5" font-weight="900" letter-spacing="0.5">DIRECT EMAIL INQUIRY</text>
-<text x="84" y="66" fill="#7A9EC5" font-size="9.5">Freelance · Collaborations · Tech Discussions</text>
-<rect x="522" y="29.0" width="270" height="34" rx="17" fill="#0D1627" stroke="#EF4444" stroke-width="1.2" stroke-opacity="0.8"/>
-<text x="657.0" y="51.0" text-anchor="middle" fill="#EF4444" font-size="11" font-weight="800">nileshsahoo837@gmail.com <tspan font-size="12">✉ ↗</tspan></text>
+<text x="84" y="28" fill="#E11D48" font-size="9" font-weight="700" letter-spacing="0.6">SAY HELLO ANYTIME 💌</text>
+<text x="84" y="48" fill="#0F172A" font-size="14.5" font-weight="800" letter-spacing="0.3">DIRECT EMAIL INQUIRY</text>
+<text x="84" y="67" fill="#64748B" font-size="10" font-weight="500">Freelance, fun collabs, research or casual talks</text>
+<rect x="527" y="29.0" width="265" height="36" rx="18" fill="#FFE4E6" stroke="#E11D48" stroke-width="1.4"/>
+<text x="659.5" y="52.0" text-anchor="middle" fill="#E11D48" font-size="11.5" font-weight="800">nileshsahoo837@gmail.com <tspan font-size="12">✉ ↗</tspan></text>
 </svg>

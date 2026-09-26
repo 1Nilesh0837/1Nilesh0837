@@ -124,11 +124,11 @@
 
 ---
 
-## 🌐 Quantum Comms · Bento Transmit Link
+## 🌸 Connect & Say Hello · Bento Cards
 
 <div align="center">
 
-<img width="100%" src="assets/socials/comms-header.svg" alt="Quantum Comms Link // Nilesh Sahoo" />
+<img width="100%" src="assets/socials/comms-header.svg" alt="Connect & Say Hello // Nilesh Sahoo" />
 
 <br/>
 
