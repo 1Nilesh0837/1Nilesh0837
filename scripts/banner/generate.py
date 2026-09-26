@@ -26,7 +26,7 @@ from scipy.spatial.distance import cdist
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "assets/source/photo.png"
 PATTERN1_SRC = ROOT / "assets/source/2.jpg"
-PATTERN2_SRC = ROOT / "assets/source/3.jpg"
+PATTERN2_SRC = ROOT / "assets/source/4.jpg"
 ASSETS = ROOT / "assets"
 LOGOS = Path(__file__).resolve().parent / "logos"
 DATA = Path(__file__).resolve().parent / "data"
@@ -531,7 +531,7 @@ def render_banner(theme: str) -> str:
         f'  <text x="{lp_x+lp_w-14}" y="{lp_y+24}" fill="{c["muted"]}">\n'
         f'    <animate attributeName="opacity" dur="6s" repeatCount="indefinite" '
         f'values="0;0;1;1;0;0" keyTimes="0;0.62;0.66;0.96;0.99;1.0"/>\n'
-        f'    03/03 · EIFFEL.TOWER\n'
+        f'    03/03 · CODING_CAT.DEV\n'
         f'  </text>\n'
         f'</g>\n'
     )
@@ -570,8 +570,8 @@ def render_banner(theme: str) -> str:
     active_p1 = dither_pattern(PATTERN1_SRC, theme, invert_dark=False, invert_light=True)
     d_p1 = get_runs_from_active(active_p1, PORTRAIT_X, PORTRAIT_Y)
 
-    # Pattern 2 (Green Eiffel Tower at night - 3.jpg)
-    active_p2 = dither_pattern(PATTERN2_SRC, theme, invert_dark=False, invert_light=False, top_anchor=True)
+    # Pattern 2 (Coding cat with paw on laptop - 4.jpg)
+    active_p2 = dither_pattern(PATTERN2_SRC, theme, invert_dark=False, invert_light=True)
     d_p2 = get_runs_from_active(active_p2, PORTRAIT_X, PORTRAIT_Y)
 
     # Frame 1: Nilesh Sahoo Portrait (Active 0.0s..2.0s in 6.0s cycle)
