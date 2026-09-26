@@ -81,19 +81,32 @@
 
 ---
 
-## 📊 GitHub Stats
+## ⚡ GitHub Telemetry & Stats
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1Nilesh0837&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff9f&icon_color=00ff9f&text_color=7affcb&border_radius=10"/>
+<!-- GitHub Trophies -->
+<a href="https://github.com/1Nilesh0837">
+  <img src="https://github-trophies.vercel.app/?username=1Nilesh0837&theme=onedark&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="GitHub Trophies" />
+</a>
+
+<br/><br/>
+
+<!-- Stats & Streak Side-by-Side (Matching 195px Height & Cyberpunk Theme) -->
+<a href="https://github.com/1Nilesh0837">
+  <img height="195" src="https://github-readme-stats-eight-theta.vercel.app/api?username=1Nilesh0837&show_icons=true&include_all_commits=true&count_private=true&bg_color=0A101F&title_color=00FF9F&icon_color=22D3EE&text_color=E0F0FF&border_color=1E3A5F&border_radius=10&rank_icon=github" alt="Nilesh's GitHub Stats" />
+</a>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff9f&text_color=7affcb&border_radius=10"/>
+<a href="https://github.com/1Nilesh0837">
+  <img height="195" src="https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&background=0A101F&border=1E3A5F&stroke=00FF9F&ring=00FF9F&fire=00FF9F&currStreakLabel=00FF9F&currStreakNum=E0F0FF&sideLabels=7AFFCB&sideNums=E0F0FF&dates=7A9EC5&border_radius=10" alt="GitHub Streak" />
+</a>
 
-</div>
+<br/><br/>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=1Nilesh0837&theme=tokyonight&hide_border=true&background=0D1117&ring=00ff9f&fire=00ff9f&currStreakLabel=00ff9f&sideLabels=7affcb&dates=555555&border_radius=10)](https://git.io/streak-stats)
+<!-- Top Languages Card -->
+<a href="https://github.com/1Nilesh0837">
+  <img height="190" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=1Nilesh0837&layout=compact&langs_count=8&bg_color=0A101F&title_color=00FF9F&text_color=E0F0FF&border_color=1E3A5F&border_radius=10" alt="Top Languages" />
+</a>
 
 </div>
 
