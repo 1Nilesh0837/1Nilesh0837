@@ -47,33 +47,36 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 💼 Tech I Work With
 
+### 🤖 AI / Machine Learning & Computer Vision
 <div align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,r,matlab" alt="AI / Machine Learning & Computer Vision" />
+</div>
 
-**Frontend**
+<br/>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### 📊 Data & Analytics
+<div align="center">
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />&nbsp;
+  <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
+  <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />&nbsp;
+  <img src="https://img.shields.io/badge/excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
+</div>
 
-**Backend & Mobile**
+<br/>
 
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### 🌐 Frontend & Mobile Development
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,flutter,dart,tailwind,html,css,nodejs,androidstudio" alt="Frontend & Mobile Development" />
+</div>
 
-**Machine Learning & Data Science**
+<br/>
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
+### ⚙️ Languages & Tools
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=c,java,git,github,docker,mongodb,vscode,linux" alt="Languages & Tools" />
 </div>
 
 ---
