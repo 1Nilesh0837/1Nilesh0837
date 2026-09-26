@@ -124,15 +124,47 @@
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Quantum Comms · Bento Transmit Link
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nilesh-sahoo-b032ab289)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/1nilesh0837)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/nileshsahoo07)
-[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@nileshsahoo837)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nileshsahoo837@gmail.com)
+<img width="100%" src="assets/socials/comms-header.svg" alt="Quantum Comms Link // Nilesh Sahoo" />
+
+<br/>
+
+<table align="center" border="0" cellpadding="0" cellspacing="8" style="border-collapse: collapse; border: none; margin: 12px auto;">
+  <tr>
+    <td align="center">
+      <a href="https://linkedin.com/in/nilesh-sahoo-b032ab289" target="_blank">
+        <img width="395" src="assets/socials/card-linkedin.svg" alt="LinkedIn · Nilesh Sahoo" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.leetcode.com/1nilesh0837" target="_blank">
+        <img width="395" src="assets/socials/card-leetcode.svg" alt="LeetCode · 1nilesh0837" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://kaggle.com/nileshsahoo07" target="_blank">
+        <img width="395" src="assets/socials/card-kaggle.svg" alt="Kaggle · nileshsahoo07" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.hackerearth.com/@nileshsahoo837" target="_blank">
+        <img width="395" src="assets/socials/card-hackerearth.svg" alt="HackerEarth · nileshsahoo837" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="mailto:nileshsahoo837@gmail.com" target="_blank">
+        <img width="802" src="assets/socials/card-gmail.svg" alt="Direct Email Inquiry · nileshsahoo837@gmail.com" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 92" width="100%" height="92" style="background:#0A101F; font-family:ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace;">
+<defs>
+  <filter id="glow-hackerearth" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="grad-hackerearth" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.35"/>
+    <stop offset="40%" stop-color="#0E172A" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#0A101F" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient id="border-hackerearth" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.9"/>
+    <stop offset="35%" stop-color="#A855F7" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.4"/>
+  </linearGradient>
+</defs>
+<rect width="395" height="92" rx="12" fill="url(#grad-hackerearth)" stroke="url(#border-hackerearth)" stroke-width="1.2"/>
+<path d="M12,6 L6,6 L6,12" stroke="#A855F7" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M383,6 L389,6 L389,12" stroke="#A855F7" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M12,86 L6,86 L6,80" stroke="#A855F7" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M383,86 L389,86 L389,80" stroke="#A855F7" stroke-width="1" fill="none" opacity="0.4"/>
+<rect x="16" y="19.0" width="54" height="54" rx="10" fill="#0D1627" stroke="#A855F7" stroke-width="1" stroke-opacity="0.6"/>
+<g transform="translate(28.0, 31.0) scale(1.25)" filter="url(#glow-hackerearth)">
+  <path d="M18.447 20.936H5.553V19.66h12.894zM20.973 0H9.511v6.51h.104c.986-1.276 2.206-1.4 3.538-1.306 1.967.117 3.89 1.346 4.017 5.169v7.322c0 .089-.05.177-.138.177h-2.29c-.09 0-.253-.082-.253-.177V10.6c0-1.783-.58-3.115-2.341-3.115-1.282 0-2.637.892-2.637 2.77v7.417c0 .089-.008.072-.102.072h-2.29c-.09 0-.29.022-.29-.072V0H3.178c-.843 0-1.581.673-1.581 1.515v20.996c0 .843.738 1.489 1.58 1.489h17.797c.843 0 1.431-.646 1.431-1.489V1.515c0-.842-.588-1.515-1.43-1.515" fill="#A855F7"/>
+</g>
+<text x="84" y="28" fill="#7A9EC5" font-size="8.5" font-weight="600" letter-spacing="1">CH-04 // CONTESTS</text>
+<text x="84" y="47" fill="#FFFFFF" font-size="13.5" font-weight="900" letter-spacing="0.5">HACKEREARTH</text>
+<text x="84" y="66" fill="#7A9EC5" font-size="9.5">Competitive Coding & Contests</text>
+<rect x="263" y="31.0" width="118" height="30" rx="15" fill="#0D1627" stroke="#A855F7" stroke-width="1" stroke-opacity="0.7"/>
+<text x="322.0" y="50.0" text-anchor="middle" fill="#A855F7" font-size="10" font-weight="700">@nileshsahoo837 <tspan font-size="11">↗</tspan></text>
+</svg>

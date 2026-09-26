@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 68" width="100%" height="68" style="background:#0A101F; font-family:ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace;">
+<defs>
+  <filter id="green-glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="cyan-glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="header-border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00FF9F" stop-opacity="0.8"/>
+    <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.8"/>
+  </linearGradient>
+</defs>
+<rect width="810" height="68" rx="10" fill="#0A101F" stroke="url(#header-border)" stroke-width="1.2"/>
+<circle cx="38" cy="34" r="18" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+<circle cx="38" cy="34" r="10.8" fill="none" stroke="#1E3A5F" stroke-width="0.8" stroke-dasharray="2,2"/>
+<circle cx="38" cy="34" r="5.4" fill="none" stroke="#1E3A5F" stroke-width="0.8"/>
+<line x1="20" y1="34" x2="56" y2="34" stroke="#1E3A5F" stroke-width="0.7"/>
+<line x1="38" y1="16" x2="38" y2="52" stroke="#1E3A5F" stroke-width="0.7"/>
+<g>
+  <line x1="38" y1="34" x2="38" y2="16" stroke="#00FF9F" stroke-width="1.8" stroke-linecap="round" filter="url(#green-glow)"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 38 34" to="360 38 34" dur="3.5s" repeatCount="indefinite"/>
+</g>
+<circle cx="46" cy="28" r="2" fill="#00FF9F">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="3.5s" repeatCount="indefinite"/>
+</circle>
+<text x="68" y="27" fill="#7A9EC5" font-size="9" letter-spacing="1">/// QUANTUM COMMS LINK // PORT 8080 // CH-01..05</text>
+<text x="68" y="47" fill="#FFFFFF" font-size="14" font-weight="900" letter-spacing="1.2">TRANSMIT &amp; CONNECT <tspan fill="#00FF9F" font-size="10">● ONLINE</tspan></text>
+<rect x="380" y="28.0" width="4" height="12" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="12;6.0;12" dur="1.2s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="28.0;31.0;28.0" dur="1.2s" repeatCount="indefinite"/>
+</rect>
+<rect x="388" y="23.0" width="4" height="22" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="22;8.8;22" dur="0.9s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="23.0;29.6;23.0" dur="0.9s" repeatCount="indefinite"/>
+</rect>
+<rect x="396" y="26.0" width="4" height="16" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="16;6.4;16" dur="1.4s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="26.0;30.8;26.0" dur="1.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="404" y="21.0" width="4" height="26" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="26;10.4;26" dur="0.8s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="21.0;28.8;21.0" dur="0.8s" repeatCount="indefinite"/>
+</rect>
+<rect x="412" y="27.0" width="4" height="14" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="14;6.0;14" dur="1.1s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="27.0;31.0;27.0" dur="1.1s" repeatCount="indefinite"/>
+</rect>
+<rect x="420" y="24.0" width="4" height="20" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="20;8.0;20" dur="1.3s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="24.0;30.0;24.0" dur="1.3s" repeatCount="indefinite"/>
+</rect>
+<rect x="428" y="29.0" width="4" height="10" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="10;6.0;10" dur="0.7s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="29.0;31.0;29.0" dur="0.7s" repeatCount="indefinite"/>
+</rect>
+<rect x="436" y="25.0" width="4" height="18" rx="2" fill="#38BDF8" opacity="0.85">
+  <animate attributeName="height" values="18;7.2;18" dur="1.0s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="25.0;30.4;25.0" dur="1.0s" repeatCount="indefinite"/>
+</rect>
+<circle cx="560" cy="34" r="5" fill="#00FF9F" filter="url(#green-glow)">
+  <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="560" cy="34" r="9" fill="none" stroke="#00FF9F" stroke-width="1" opacity="0.6">
+  <animate attributeName="r" values="5;12;5" dur="1.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="578" y="31" fill="#7A9EC5" font-size="9" letter-spacing="0.8">SIGNAL PROTOCOL</text>
+<text x="578" y="45" fill="#00FF9F" font-size="11" font-weight="800" letter-spacing="0.5">OPEN TO COLLABORATION</text>
+</svg>
