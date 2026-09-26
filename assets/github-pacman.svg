@@ -1149,29 +1149,49 @@
 <rect x="770.0" y="140.0" width="10.5" height="10.5" rx="2.5" fill="#006D32">
   <title>3 contributions on 2026-09-27</title>
 </rect>
-<!-- Pac-Man Character -->
+<!-- Pac-Man Character (Chasing & Eating the Blue Ghost) -->
 <g filter="url(#pac-glow)">
-  <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" values="47.0,75.25; 775.0,75.25; 775.0,103.25; 47.0,103.25; 47.0,131.25; 775.0,131.25; 47.0,75.25" keyTimes="0;0.300;0.328;0.628;0.657;0.957;1.0"/>
-  <circle cx="0" cy="0" r="7.5" fill="#FFD700"/>
-  <path fill="#0A101F">
-    <animate attributeName="d" dur="0.22s" repeatCount="indefinite" values="M0,0 L8,-4.5 L8,4.5 Z; M0,0 L8,-0.5 L8,0.5 Z; M0,0 L8,-4.5 L8,4.5 Z"/>
-  </path>
+  <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" values="50,75.25; 450,75.25; 620,75.25; 770,75.25; 770,103.25; 740,103.25; 360,103.25; 200,103.25; 50,103.25; 50,131.25; 80,131.25; 470,131.25; 640,131.25; 770,131.25; 50,75.25; 50,75.25" keyTimes="0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"/>
+  <g>
+    <animateTransform attributeName="transform" type="scale" dur="14s" repeatCount="indefinite" values="1 1; 1 1; 1 1; 1 1; -1 1; -1 1; -1 1; -1 1; -1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1" keyTimes="0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"/>
+    <circle cx="0" cy="0" r="7.5" fill="#FFD700"/>
+    <path fill="#0A101F">
+      <animate attributeName="d" dur="0.18s" repeatCount="indefinite" values="M0,0 L9,-6 L9,6 Z; M0,0 L9,-1 L9,1 Z; M0,0 L9,-6 L9,6 Z"/>
+    </path>
+    <circle cx="1.2" cy="-3.8" r="1.1" fill="#0A101F"/>
+  </g>
 </g>
-<!-- Ghost Character (Chasing Pac-Man) -->
+<!-- Frightened Blue Ghost (Runs from Pac-Man, Gets Eaten) -->
 <g filter="url(#neon-glow)">
-  <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" values="22.0,75.25; 47.0,75.25; 775.0,75.25; 775.0,103.25; 47.0,103.25; 47.0,131.25; 775.0,131.25; 22.0,75.25" keyTimes="0;0.035;0.335;0.363;0.663;0.692;0.992;1.0"/>
-  <path d="M-6,6 L-6,-1 A6,6 0 0,1 6,-1 L6,6 L3,4.5 L0,6 L-3,4.5 Z" fill="#00E5FF">
-    <animate attributeName="fill" dur="14s" repeatCount="indefinite" values="#00E5FF;#00E5FF;#00E5FF;#00E5FF;#3B82F6;#3B82F6;#00E5FF" keyTimes="0;0.300;0.328;0.628;0.657;0.957;1.0"/>
-  </path>
-  <circle cx="-2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>
-  <circle cx="2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>
-  <circle cx="-1.8" cy="-1.5" r="0.9" fill="#000080"/>
-  <circle cx="3.2" cy="-1.5" r="0.9" fill="#000080"/>
+  <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" values="105,75.25; 505,75.25; 620,75.25; 770,75.25; 770,103.25; 685,103.25; 305,103.25; 200,103.25; 50,103.25; 50,131.25; 135,131.25; 525,131.25; 640,131.25; 770,131.25; 105,75.25; 105,75.25" keyTimes="0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"/>
+  <g>
+    <animateTransform attributeName="transform" type="scale" dur="14s" repeatCount="indefinite" values="1 1; 1 1; 1 1; 1 1; -1 1; -1 1; -1 1; -1 1; -1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1" keyTimes="0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"/>
+    <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="1;1;0;0;0;1;1;0;0;0;1;1;0;0;0;1" keyTimes="0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"/>
+    <path d="M-6,6 L-6,-1 A6,6 0 0,1 6,-1 L6,6 L3,4.5 L0,6 L-3,4.5 Z" fill="#2563EB">
+      <animate attributeName="fill" dur="14s" repeatCount="indefinite" values="#2563EB;#2563EB;#FFFFFF;#2563EB;#2563EB;#2563EB;#2563EB;#FFFFFF;#2563EB;#2563EB;#2563EB;#2563EB;#FFFFFF;#2563EB;#2563EB;#2563EB" keyTimes="0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"/>
+    </path>
+    <path d="M-3.5,3 L-2,1.8 L0,3 L2,1.8 L3.5,3" stroke="#FFFFFF" stroke-width="0.8" fill="none"/>
+    <circle cx="-2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>
+    <circle cx="2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>
+    <circle cx="-3.2" cy="-1.5" r="0.9" fill="#000080"/>
+    <circle cx="1.8" cy="-1.5" r="0.9" fill="#000080"/>
+  </g>
 </g>
-<text x="735.0" y="119.25" fill="#FFD700" font-size="10" font-weight="900" opacity="0">
-  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="0;0;0;0;1;1;0;0" keyTimes="0;0.91;0.92;0.95;0.96;0.98;0.99;1.0"/>
-  <animate attributeName="y" dur="14s" repeatCount="indefinite" values="123.25;123.25;123.25;123.25;117.25;111.25;111.25;111.25" keyTimes="0;0.91;0.92;0.95;0.96;0.98;0.99;1.0"/>
+<!-- Score Popups when Ghost is Eaten -->
+<text x="620" y="75.25" text-anchor="middle" fill="#FFD700" font-size="11" font-weight="900" opacity="0">
+  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.22;0.23;0.28;0.29;1.0"/>
+  <animate attributeName="y" dur="14s" repeatCount="indefinite" values="75.25;75.25;69.25;59.25;59.25;59.25" keyTimes="0;0.22;0.23;0.28;0.29;1.0"/>
   +200
+</text>
+<text x="200" y="103.25" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="900" opacity="0">
+  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.54;0.55;0.60;0.61;1.0"/>
+  <animate attributeName="y" dur="14s" repeatCount="indefinite" values="103.25;103.25;97.25;87.25;87.25;87.25" keyTimes="0;0.54;0.55;0.60;0.61;1.0"/>
+  +400
+</text>
+<text x="640" y="131.25" text-anchor="middle" fill="#00FF9F" font-size="11" font-weight="900" opacity="0">
+  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.86;0.87;0.93;0.94;1.0"/>
+  <animate attributeName="y" dur="14s" repeatCount="indefinite" values="131.25;131.25;125.25;115.25;115.25;115.25" keyTimes="0;0.86;0.87;0.93;0.94;1.0"/>
+  +800
 </text>
 <line x1="20" y1="190" x2="810" y2="190" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
 <text x="25" y="208" fill="#7A9EC5" font-size="10">LIVES: <tspan fill="#FFD700" font-size="12">ᗧ ᗧ ᗧ</tspan></text>

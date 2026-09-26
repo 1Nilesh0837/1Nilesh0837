@@ -25,8 +25,7 @@ MUTED_COLOR = "#7A9EC5"
 ACCENT_MINT = "#00FF9F"
 ACCENT_CYAN = "#38BDF8"
 PACMAN_YELLOW = "#FFD700"
-GHOST_CYAN = "#00E5FF"
-GHOST_BLUE = "#3B82F6"
+GHOST_SCARED = "#2563EB"
 
 # Cell colors by GitHub contribution level (0 to 4)
 LEVEL_COLORS = {
@@ -105,7 +104,6 @@ def build_pacman_svg(contribs):
     svg.append(f'<line x1="20" y1="34" x2="{w-20}" y2="34" stroke="{BORDER_COLOR}" stroke-width="0.8" opacity="0.6"/>\n')
 
     # Month Labels across the top
-    # Extract distinct month starts
     last_month = None
     for idx, c in enumerate(contribs):
         col = idx // 7
@@ -153,73 +151,124 @@ def build_pacman_svg(contribs):
 
     # ── Animated Pac-Man & Ghost Movement ──
     # Total duration = 14s loop
-    # Route:
-    # Row 1 (y = 75.0): Left -> Right (0.0s..4.2s)
-    # Turn down to Row 3 (y = 103.5) (4.2s..4.6s)
-    # Row 3 (y = 103.5): Right -> Left (4.6s..8.8s)
-    # Turn down to Row 5 (y = 132.0) (8.8s..9.2s)
-    # Row 5 (y = 132.0): Left -> Right (9.2s..13.4s)
-    # Wrap back (13.4s..14.0s)
+    # Lore: Blue Ghost (vulnerable) is fleeing in terror.
+    # Yellow Pac-Man hunts and chases the Ghost across contribution rows,
+    # catches up and CHOMPS the ghost, triggering arcade score popups (+200, +400, +800)!
 
     r1_y = grid_y + 1 * row_h + cell_size / 2.0  # 75.25
     r3_y = grid_y + 3 * row_h + cell_size / 2.0  # 103.65
     r5_y = grid_y + 5 * row_h + cell_size / 2.0  # 132.05
 
-    x_min = grid_x + 5
-    x_max = grid_x + 52 * col_w + 5  # ~775
+    # Keyframe timeline (16 keys)
+    keys = "0;0.18;0.23;0.29;0.32;0.34;0.50;0.55;0.61;0.64;0.66;0.82;0.87;0.94;0.97;1.0"
 
-    p_k = "0;0.300;0.328;0.628;0.657;0.957;1.0"
-    p_tr = f"{x_min},{r1_y}; {x_max},{r1_y}; {x_max},{r3_y}; {x_min},{r3_y}; {x_min},{r5_y}; {x_max},{r5_y}; {x_min},{r1_y}"
-    p_rot = "0;0; 90; 180; 90; 0; 0"
+    # Pac-Man positions (Chasing the blue ghost)
+    p_tr = (
+        f"50,{r1_y}; 450,{r1_y}; 620,{r1_y}; 770,{r1_y}; 770,{r3_y}; "
+        f"740,{r3_y}; 360,{r3_y}; 200,{r3_y}; 50,{r3_y}; 50,{r5_y}; "
+        f"80,{r5_y}; 470,{r5_y}; 640,{r5_y}; 770,{r5_y}; 50,{r1_y}; 50,{r1_y}"
+    )
 
-    # Ghost is delayed by 0.5s (~0.035 in keyTimes)
-    g_k = "0;0.035;0.335;0.363;0.663;0.692;0.992;1.0"
-    g_tr = f"{x_min-25},{r1_y}; {x_min},{r1_y}; {x_max},{r1_y}; {x_max},{r3_y}; {x_min},{r3_y}; {x_min},{r5_y}; {x_max},{r5_y}; {x_min-25},{r1_y}"
+    # Pac-Man facing direction (scaleX: 1 = Right, -1 = Left)
+    p_sc = "1 1; 1 1; 1 1; 1 1; -1 1; -1 1; -1 1; -1 1; -1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1"
 
-    # Pac-Man Element
-    svg.append('<!-- Pac-Man Character -->\n')
+    # Blue Ghost positions (Fleeing ahead of Pac-Man, eaten at 620, 200, 640)
+    g_tr = (
+        f"105,{r1_y}; 505,{r1_y}; 620,{r1_y}; 770,{r1_y}; 770,{r3_y}; "
+        f"685,{r3_y}; 305,{r3_y}; 200,{r3_y}; 50,{r3_y}; 50,{r5_y}; "
+        f"135,{r5_y}; 525,{r5_y}; 640,{r5_y}; 770,{r5_y}; 105,{r1_y}; 105,{r1_y}"
+    )
+
+    # Ghost facing direction (scaleX: 1 = eyes look back left towards chasing Pac-Man)
+    g_sc = "1 1; 1 1; 1 1; 1 1; -1 1; -1 1; -1 1; -1 1; -1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1; 1 1"
+
+    # Ghost Opacity: 1 when fleeing, 0 when eaten by Pac-Man!
+    g_op = "1;1;0;0;0;1;1;0;0;0;1;1;0;0;0;1"
+
+    # Ghost Color: Scared blue, flashing white right before being eaten
+    g_col = (
+        "#2563EB;#2563EB;#FFFFFF;#2563EB;#2563EB;"
+        "#2563EB;#2563EB;#FFFFFF;#2563EB;#2563EB;"
+        "#2563EB;#2563EB;#FFFFFF;#2563EB;#2563EB;#2563EB"
+    )
+
+    # 1. Pac-Man Character (The Hunter)
+    svg.append('<!-- Pac-Man Character (Chasing & Eating the Blue Ghost) -->\n')
     svg.append(
         f'<g filter="url(#pac-glow)">\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" '
-        f'values="{p_tr}" keyTimes="{p_k}"/>\n'
-        # Pac-man yellow body with chomping mouth
-        f'  <circle cx="0" cy="0" r="7.5" fill="{PACMAN_YELLOW}"/>\n'
-        f'  <path fill="{BG_COLOR}">\n'
-        f'    <animate attributeName="d" dur="0.22s" repeatCount="indefinite" '
-        f'values="M0,0 L8,-4.5 L8,4.5 Z; M0,0 L8,-0.5 L8,0.5 Z; M0,0 L8,-4.5 L8,4.5 Z"/>\n'
-        f'  </path>\n'
+        f'values="{p_tr}" keyTimes="{keys}"/>\n'
+        f'  <g>\n'
+        f'    <animateTransform attributeName="transform" type="scale" dur="14s" repeatCount="indefinite" '
+        f'values="{p_sc}" keyTimes="{keys}"/>\n'
+        # Yellow body
+        f'    <circle cx="0" cy="0" r="7.5" fill="{PACMAN_YELLOW}"/>\n'
+        # Chomping mouth opening & closing
+        f'    <path fill="{BG_COLOR}">\n'
+        f'      <animate attributeName="d" dur="0.18s" repeatCount="indefinite" '
+        f'values="M0,0 L9,-6 L9,6 Z; M0,0 L9,-1 L9,1 Z; M0,0 L9,-6 L9,6 Z"/>\n'
+        f'    </path>\n'
+        # Pac-Man eye
+        f'    <circle cx="1.2" cy="-3.8" r="1.1" fill="{BG_COLOR}"/>\n'
+        f'  </g>\n'
         f'</g>\n'
     )
 
-    # Ghost Element (Blinky / Inky)
-    # Turns scared blue on row 5 (0.657 to 0.957)
-    svg.append('<!-- Ghost Character (Chasing Pac-Man) -->\n')
-    ghost_colors = f"{GHOST_CYAN};{GHOST_CYAN};{GHOST_CYAN};{GHOST_CYAN};{GHOST_BLUE};{GHOST_BLUE};{GHOST_CYAN}"
-    ghost_k = "0;0.300;0.328;0.628;0.657;0.957;1.0"
+    # 2. Scared Blue Ghost Character (Fleeing from Pac-Man)
+    svg.append('<!-- Frightened Blue Ghost (Runs from Pac-Man, Gets Eaten) -->\n')
     svg.append(
         f'<g filter="url(#neon-glow)">\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" '
-        f'values="{g_tr}" keyTimes="{g_k}"/>\n'
-        # Ghost body
-        f'  <path d="M-6,6 L-6,-1 A6,6 0 0,1 6,-1 L6,6 L3,4.5 L0,6 L-3,4.5 Z" fill="{GHOST_CYAN}">\n'
-        f'    <animate attributeName="fill" dur="14s" repeatCount="indefinite" values="{ghost_colors}" keyTimes="{ghost_k}"/>\n'
-        f'  </path>\n'
-        # Ghost eyes
-        f'  <circle cx="-2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>\n'
-        f'  <circle cx="2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>\n'
-        f'  <circle cx="-1.8" cy="-1.5" r="0.9" fill="#000080"/>\n'
-        f'  <circle cx="3.2" cy="-1.5" r="0.9" fill="#000080"/>\n'
+        f'values="{g_tr}" keyTimes="{keys}"/>\n'
+        f'  <g>\n'
+        f'    <animateTransform attributeName="transform" type="scale" dur="14s" repeatCount="indefinite" '
+        f'values="{g_sc}" keyTimes="{keys}"/>\n'
+        f'    <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="{g_op}" keyTimes="{keys}"/>\n'
+        # Ghost body with frightened wavy skirt
+        f'    <path d="M-6,6 L-6,-1 A6,6 0 0,1 6,-1 L6,6 L3,4.5 L0,6 L-3,4.5 Z" fill="#2563EB">\n'
+        f'      <animate attributeName="fill" dur="14s" repeatCount="indefinite" values="{g_col}" keyTimes="{keys}"/>\n'
+        f'    </path>\n'
+        # Frightened wavy mouth
+        f'    <path d="M-3.5,3 L-2,1.8 L0,3 L2,1.8 L3.5,3" stroke="#FFFFFF" stroke-width="0.8" fill="none"/>\n'
+        # Frightened ghost eyes (looking back in terror at Pac-Man)
+        f'    <circle cx="-2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>\n'
+        f'    <circle cx="2.5" cy="-1.5" r="1.8" fill="#FFFFFF"/>\n'
+        f'    <circle cx="-3.2" cy="-1.5" r="0.9" fill="#000080"/>\n'
+        f'    <circle cx="1.8" cy="-1.5" r="0.9" fill="#000080"/>\n'
+        f'  </g>\n'
         f'</g>\n'
     )
 
-    # Floating Score Bubble when power pellet is eaten
+    # 3. Floating Score Popups when Pac-Man eats the Blue Ghost!
+    # Row 1: +200 PTS at x=620 (around t=0.23 to 0.29)
+    svg.append('<!-- Score Popups when Ghost is Eaten -->\n')
     svg.append(
-        f'<text x="{x_max-40}" y="{r5_y-12}" fill="{PACMAN_YELLOW}" font-size="10" font-weight="900" opacity="0">\n'
+        f'<text x="620" y="{r1_y}" text-anchor="middle" fill="{PACMAN_YELLOW}" font-size="11" font-weight="900" opacity="0">\n'
         f'  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" '
-        f'values="0;0;0;0;1;1;0;0" keyTimes="0;0.91;0.92;0.95;0.96;0.98;0.99;1.0"/>\n'
+        f'values="0;0;1;1;0;0" keyTimes="0;0.22;0.23;0.28;0.29;1.0"/>\n'
         f'  <animate attributeName="y" dur="14s" repeatCount="indefinite" '
-        f'values="{r5_y-8};{r5_y-8};{r5_y-8};{r5_y-8};{r5_y-14};{r5_y-20};{r5_y-20};{r5_y-20}" keyTimes="0;0.91;0.92;0.95;0.96;0.98;0.99;1.0"/>\n'
+        f'values="{r1_y};{r1_y};{r1_y-6};{r1_y-16};{r1_y-16};{r1_y-16}" keyTimes="0;0.22;0.23;0.28;0.29;1.0"/>\n'
         f'  +200\n'
+        f'</text>\n'
+    )
+    # Row 3: +400 PTS at x=200 (around t=0.55 to 0.61)
+    svg.append(
+        f'<text x="200" y="{r3_y}" text-anchor="middle" fill="{ACCENT_CYAN}" font-size="11" font-weight="900" opacity="0">\n'
+        f'  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" '
+        f'values="0;0;1;1;0;0" keyTimes="0;0.54;0.55;0.60;0.61;1.0"/>\n'
+        f'  <animate attributeName="y" dur="14s" repeatCount="indefinite" '
+        f'values="{r3_y};{r3_y};{r3_y-6};{r3_y-16};{r3_y-16};{r3_y-16}" keyTimes="0;0.54;0.55;0.60;0.61;1.0"/>\n'
+        f'  +400\n'
+        f'</text>\n'
+    )
+    # Row 5: +800 PTS at x=640 (around t=0.87 to 0.94)
+    svg.append(
+        f'<text x="640" y="{r5_y}" text-anchor="middle" fill="{ACCENT_MINT}" font-size="11" font-weight="900" opacity="0">\n'
+        f'  <animate attributeName="opacity" dur="14s" repeatCount="indefinite" '
+        f'values="0;0;1;1;0;0" keyTimes="0;0.86;0.87;0.93;0.94;1.0"/>\n'
+        f'  <animate attributeName="y" dur="14s" repeatCount="indefinite" '
+        f'values="{r5_y};{r5_y};{r5_y-6};{r5_y-16};{r5_y-16};{r5_y-16}" keyTimes="0;0.86;0.87;0.93;0.94;1.0"/>\n'
+        f'  +800\n'
         f'</text>\n'
     )
 
