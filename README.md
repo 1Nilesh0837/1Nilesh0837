@@ -112,11 +112,13 @@
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Contribution Velocity & Activity Stream
 
 <div align="center">
 
-[![Nilesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=1nilesh0837&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=7B68EE&line=7B68EE&point=ffffff)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<a href="https://github.com/1Nilesh0837">
+  <img width="100%" src="https://activity-graph.vercel.app/graph?username=1Nilesh0837&bg_color=0A101F&color=00FF9F&line=00FF9F&point=38BDF8&area=true&area_color=00FF9F&hide_border=true&custom_title=CONTRIBUTION%20VELOCITY%20STREAM&radius=10" alt="Nilesh's Contribution Velocity Stream" />
+</a>
 
 </div>
 
