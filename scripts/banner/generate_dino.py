@@ -19,13 +19,14 @@ NEON_MINT = "#00FF9F"
 NEON_CYAN = "#38BDF8"
 NEON_YELLOW = "#FFD700"
 DINO_COLOR = "#00FF9F"      # Vibrant glowing neon mint
-DINO_ACCENT = "#FFFFFF"     # White eye & teeth highlights
-CACTUS_COLOR = "#38BDF8"    # Electric Cyan cactus
+CACTUS_CYAN = "#38BDF8"     # Electric Cyan cactus
+CACTUS_PINK = "#FF007F"     # Neon Pink cactus
 
 
 def build_dino_svg():
     w, h = 830, 150
     ground_y = 104
+    dino_x = 120
 
     svg = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="100%" height="{h}" '
@@ -103,7 +104,7 @@ def build_dino_svg():
         f'</g>\n'
     )
 
-    # Ground line with moving dashed pebbles
+    # Ground line
     svg.append(f'<line x1="20" y1="{ground_y}" x2="{w-20}" y2="{ground_y}" stroke="{BORDER_COLOR}" stroke-width="1.2"/>\n')
 
     # Scrolling ground texture / pebbles
@@ -117,51 +118,61 @@ def build_dino_svg():
     )
 
     # ── Incoming Obstacles (Cacti) ──
-    # Cactus 1 (Cyan neon cactus):
+    # Cactus 1 (Electric Cyan, arrives at x=120 at t=2.967s, normalized key=0.824):
     svg.append(
         f'<g>\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" '
         f'values="{w+40},{ground_y}; -40,{ground_y}"/>\n'
         f'  <g filter="url(#dino-glow)">\n'
-        f'    <rect x="-4" y="-30" width="8" height="30" fill="{CACTUS_COLOR}" rx="1.5"/>\n'
-        f'    <rect x="-11" y="-22" width="7" height="4" fill="{CACTUS_COLOR}"/>\n'
-        f'    <rect x="-11" y="-27" width="4" height="7" fill="{CACTUS_COLOR}" rx="1"/>\n'
-        f'    <rect x="4" y="-18" width="7" height="4" fill="{CACTUS_COLOR}"/>\n'
-        f'    <rect x="7" y="-25" width="4" height="9" fill="{CACTUS_COLOR}" rx="1"/>\n'
+        f'    <rect x="-4" y="-28" width="8" height="28" fill="{CACTUS_CYAN}" rx="1.5"/>\n'
+        f'    <rect x="-11" y="-21" width="7" height="4" fill="{CACTUS_CYAN}"/>\n'
+        f'    <rect x="-11" y="-26" width="4" height="6" fill="{CACTUS_CYAN}" rx="1"/>\n'
+        f'    <rect x="4" y="-17" width="7" height="4" fill="{CACTUS_CYAN}"/>\n'
+        f'    <rect x="7" y="-24" width="4" height="8" fill="{CACTUS_CYAN}" rx="1"/>\n'
         f'  </g>\n'
         f'</g>\n'
     )
 
-    # Cactus 2 (Delayed by 1.8s, Double Pink/Mint cactus):
+    # Cactus 2 (Delayed by 1.8s, Neon Pink double cactus, arrives at x=120 at t=1.167s, normalized key=0.324):
     svg.append(
         f'<g>\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" '
         f'begin="-1.8s" values="{w+40},{ground_y}; -40,{ground_y}"/>\n'
         f'  <g filter="url(#dino-glow)">\n'
-        f'    <rect x="-10" y="-24" width="7" height="24" fill="#FF007F" rx="1.5"/>\n'
-        f'    <rect x="2" y="-29" width="8" height="29" fill="#FF007F" rx="1.5"/>\n'
-        f'    <rect x="-15" y="-17" width="5" height="4" fill="#FF007F"/>\n'
-        f'    <rect x="-15" y="-22" width="4" height="6" fill="#FF007F"/>\n'
-        f'    <rect x="10" y="-21" width="5" height="4" fill="#FF007F"/>\n'
-        f'    <rect x="11" y="-26" width="4" height="7" fill="#FF007F"/>\n'
+        f'    <rect x="-9" y="-23" width="7" height="23" fill="{CACTUS_PINK}" rx="1.5"/>\n'
+        f'    <rect x="2" y="-28" width="7" height="28" fill="{CACTUS_PINK}" rx="1.5"/>\n'
+        f'    <rect x="-14" y="-16" width="5" height="4" fill="{CACTUS_PINK}"/>\n'
+        f'    <rect x="-14" y="-21" width="4" height="6" fill="{CACTUS_PINK}"/>\n'
+        f'    <rect x="9" y="-20" width="5" height="4" fill="{CACTUS_PINK}"/>\n'
+        f'    <rect x="10" y="-25" width="4" height="6" fill="{CACTUS_PINK}"/>\n'
         f'  </g>\n'
         f'</g>\n'
     )
 
-    # ── Chrome T-Rex Dinosaur (Position x = 130) ──
-    # Jump cycle: 1.8s loop
-    # Runs on ground: 0..0.34
-    # Leaps up: 0.34..0.48 (peak at y = ground_y - 36)
-    # Hangs & Lands: 0.48..0.62 (lands at ground_y)
-    # Runs on ground: 0.62..1.0
-    dino_x = 130
-    jump_keys = "0;0.34;0.48;0.62;1.0"
-    jump_vals = f"{dino_x},{ground_y}; {dino_x},{ground_y}; {dino_x},{ground_y-36}; {dino_x},{ground_y}; {dino_x},{ground_y}"
+    # ── Chrome T-Rex Dinosaur (Position x = 120) ──
+    # Perfectly synchronized jump physics:
+    # Cactus 2 passes underneath at key=0.324 (Dino at peak y=58, 46px above cactus!)
+    # Cactus 1 passes underneath at key=0.824 (Dino at peak y=58, 46px above cactus!)
+    jump_keys = "0;0.244;0.284;0.324;0.364;0.404;0.744;0.784;0.824;0.864;0.904;1.0"
+    jump_vals = (
+        f"{dino_x},{ground_y}; "      # 0.000: Running on ground
+        f"{dino_x},{ground_y}; "      # 0.244: Starts Jump 1
+        f"{dino_x},{ground_y-26}; "   # 0.284: Ascending
+        f"{dino_x},{ground_y-46}; "   # 0.324: PEAK! Cactus 2 passes directly underneath!
+        f"{dino_x},{ground_y-26}; "   # 0.364: Descending
+        f"{dino_x},{ground_y}; "      # 0.404: Lands on ground
+        f"{dino_x},{ground_y}; "      # 0.744: Starts Jump 2
+        f"{dino_x},{ground_y-26}; "   # 0.784: Ascending
+        f"{dino_x},{ground_y-46}; "   # 0.824: PEAK! Cactus 1 passes directly underneath!
+        f"{dino_x},{ground_y-26}; "   # 0.864: Descending
+        f"{dino_x},{ground_y}; "      # 0.904: Lands on ground
+        f"{dino_x},{ground_y}"        # 1.000: Running on ground
+    )
 
     svg.append(
-        f'<!-- Animated T-Rex Dinosaur (Jumping over Cacti) -->\n'
+        f'<!-- Animated T-Rex Dinosaur (Jumping over Cacti with Zero Overlap) -->\n'
         f'<g filter="url(#dino-glow)">\n'
-        f'  <animateTransform attributeName="transform" type="translate" dur="1.8s" repeatCount="indefinite" '
+        f'  <animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" '
         f'values="{jump_vals}" keyTimes="{jump_keys}"/>\n'
         # Scale up dino slightly (1.25x) so it's super prominent
         f'  <g transform="scale(1.25)">\n'
