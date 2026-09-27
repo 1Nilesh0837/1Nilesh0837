@@ -3,7 +3,7 @@ name: Generate Profile Banner
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   push:
     branches: [main]
     paths:
@@ -45,14 +45,19 @@ jobs:
       - name: Generate Cyber Holographic GitHub Stats
         run: python scripts/banner/generate_stats.py
 
+      - name: Sync latest Featured Projects
+        run: python scripts/banner/update_featured_projects.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit updated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/banner-*.svg assets/github-pacman.svg assets/footer-dino.svg assets/github-stats.svg assets/socials/ scripts/banner/data/ scripts/banner/logos/
+          git add README.md assets/banner-*.svg assets/github-pacman.svg assets/footer-dino.svg assets/github-stats.svg assets/socials/ scripts/banner/data/ scripts/banner/logos/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: regenerate profile assets, cards and dino footer [skip ci]"
+            git commit -m "chore: regenerate profile assets and sync featured projects [skip ci]"
             git push
           fi

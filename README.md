@@ -31,19 +31,19 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects · Auto-Synced
 
+<!-- FEATURED_PROJECTS:START -->
 <div align="center">
 
-| 🌾 KisanDB | 🚑 SmartCare |
+| 🌿 **[ECOFORENSICS](https://github.com/1Nilesh0837/ECOFORENSICS)** | 💳 **[Mandate-Intelligence-Loop](https://github.com/1Nilesh0837/Mandate-Intelligence-Loop)** |
 |:---:|:---:|
-| AI-powered farming platform for India | AI emergency response platform |
-| ML price prediction (88.67% accuracy) | One-touch SOS + Live GPS + Drone support |
-| Real-time weather advisories | Telemedicine + Doctor/Ambulance connection |
-| `Python` `ML` `AI` | `HTML` `GPS` `AI` |
-| [View Repo →](https://github.com/1Nilesh0837/kisandb) | [View Repo →](https://github.com/1Nilesh0837/SmartCare) |
+| EcoForensics is an AI-powered resource intelligence system that detects invisible energy, water, and fuel waste from video and... | An agent that predicts the best day to retry a failed UPI Autopay debit, then runs bounded, compliant outreach if it still... |
+| <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" /> &nbsp; ⭐ `0` | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" /> &nbsp; ⭐ `0` |
+| [View Repo →](https://github.com/1Nilesh0837/ECOFORENSICS) | [View Repo →](https://github.com/1Nilesh0837/Mandate-Intelligence-Loop) |
 
 </div>
+<!-- FEATURED_PROJECTS:END -->
 
 ---
 
