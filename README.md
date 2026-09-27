@@ -55,36 +55,12 @@
 
 ---
 
-## 💼 Tech I Work With
+## 💼 Tech Arsenal · Cyber Bento Matrix
 
-### 🤖 AI / Machine Learning & Computer Vision
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,r,matlab" alt="AI / Machine Learning & Computer Vision" />
-</div>
 
-<br/>
+<img width="100%" src="assets/tech-bento.svg" alt="Nilesh's Cyber Bento Tech Stack" />
 
-### 📊 Data & Analytics
-<div align="center">
-  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
-  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />&nbsp;
-  <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
-  <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />&nbsp;
-  <img src="https://img.shields.io/badge/excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
-</div>
-
-<br/>
-
-### 🌐 Frontend & Mobile Development
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,flutter,dart,tailwind,html,css,nodejs,androidstudio" alt="Frontend & Mobile Development" />
-</div>
-
-<br/>
-
-### ⚙️ Languages & Tools
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=c,java,git,github,docker,mongodb,vscode,linux" alt="Languages & Tools" />
 </div>
 
 ---

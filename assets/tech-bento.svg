@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="318" viewBox="0 0 830 318" fill="none">
+<defs>
+  <linearGradient id="pod-glass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1E3A5F" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#0A101F" stop-opacity="0.6"/>
+  </linearGradient>
+  <linearGradient id="scanner-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00FF9F" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#00FF9F" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="accent-grad-0" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
+  </linearGradient>
+  <linearGradient id="accent-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FACC15" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
+  </linearGradient>
+  <linearGradient id="accent-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
+  </linearGradient>
+  <linearGradient id="accent-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00FF9F" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
+  </linearGradient>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    @keyframes pulse-beacon {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+    @keyframes sweep-beam {
+      0% { transform: translateY(0px); opacity: 0; }
+      15% { opacity: 0.6; }
+      85% { opacity: 0.6; }
+      100% { transform: translateY(318px); opacity: 0; }
+    }
+    .pulse-beacon { animation: pulse-beacon 2s infinite ease-in-out; }
+    .sweep-line { animation: sweep-beam 5s infinite linear; }
+  </style>
+</defs>
+<rect width="830" height="318" rx="14" fill="#0A101F" stroke="#1E3A5F" stroke-width="1.5"/>
+<rect x="20" y="0" width="790" height="2" fill="url(#accent-grad-0)"/>
+<line class="sweep-line" x1="4" y1="0" x2="826" y2="0" stroke="url(#scanner-grad)" stroke-width="2"/>
+<text x="20" y="24" fill="#00FF9F" font-size="9.5" font-weight="800" letter-spacing="1">/// TECH ARSENAL // CYBER BENTO MATRIX</text>
+<text x="440" y="24" text-anchor="middle" fill="#7A9EC5" font-size="9" font-weight="700" letter-spacing="0.5">STATUS: <tspan fill="#38BDF8">OPTIMAL</tspan> &#160;•&#160; ARCHITECTURE: <tspan fill="#00FF9F">FULL-STACK &amp; AI</tspan></text>
+<text x="810" y="24" text-anchor="end" fill="#00FF9F" font-size="9" font-weight="800" letter-spacing="0.5">● 27 SKILLS VERIFIED</text>
+<line x1="20" y1="34" x2="810" y2="34" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+<g transform="translate(18,44)">
+  <rect width="390" height="124" rx="12" fill="#080E1A" stroke="#1E3A5F" stroke-width="1.2"/>
+  <rect width="390" height="124" rx="12" fill="url(#pod-glass-grad)" opacity="0.7"/>
+  <rect x="12" y="1" width="366" height="2.5" rx="1" fill="url(#accent-grad-0)"/>
+  <circle cx="378" cy="112" r="1.5" fill="#38BDF8" opacity="0.4"/>
+  <circle cx="18" cy="22" r="3.5" fill="#38BDF8" class="pulse-beacon"/>
+  <text x="28" y="25.5" fill="#FFFFFF" font-size="11" font-weight="800" letter-spacing="0.6">AI / MACHINE LEARNING &amp; VISION</text>
+  <rect x="297" y="13" width="79" height="18" rx="4" fill="#38BDF81A" stroke="#38BDF8" stroke-width="0.8"/>
+  <text x="336" y="25" text-anchor="middle" fill="#38BDF8" font-size="8.5" font-weight="800" letter-spacing="0.5">AI MATRIX</text>
+  <line x1="12" y1="36" x2="378" y2="36" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+  <g transform="translate(14,46)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#38BDF8"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Python</text>
+</g>
+  <g transform="translate(99,46)">
+  <rect width="84" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="76" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#EE4C2C"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">PyTorch</text>
+</g>
+  <g transform="translate(191,46)">
+  <rect width="107" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="99" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#FF6F00"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">TensorFlow</text>
+</g>
+  <g transform="translate(306,46)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#5C3EE8"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">OpenCV</text>
+</g>
+  <g transform="translate(14,82)">
+  <rect width="122" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="114" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#F7931E"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Scikit-Learn</text>
+</g>
+  <g transform="translate(144,82)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#276DC3"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">R Lang</text>
+</g>
+  <g transform="translate(229,82)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#E16727"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">MATLAB</text>
+</g>
+</g>
+<g transform="translate(422,44)">
+  <rect width="390" height="124" rx="12" fill="#080E1A" stroke="#1E3A5F" stroke-width="1.2"/>
+  <rect width="390" height="124" rx="12" fill="url(#pod-glass-grad)" opacity="0.7"/>
+  <rect x="12" y="1" width="366" height="2.5" rx="1" fill="url(#accent-grad-1)"/>
+  <circle cx="378" cy="112" r="1.5" fill="#FACC15" opacity="0.4"/>
+  <circle cx="18" cy="22" r="3.5" fill="#FACC15" class="pulse-beacon"/>
+  <text x="28" y="25.5" fill="#FFFFFF" font-size="11" font-weight="800" letter-spacing="0.6">DATA &amp; ADVANCED ANALYTICS</text>
+  <rect x="304" y="13" width="72" height="18" rx="4" fill="#FACC151A" stroke="#FACC15" stroke-width="0.8"/>
+  <text x="340" y="25" text-anchor="middle" fill="#FACC15" font-size="8.5" font-weight="800" letter-spacing="0.5">BIG DATA</text>
+  <line x1="12" y1="36" x2="378" y2="36" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+  <g transform="translate(14,46)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#38BDF8"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Pandas</text>
+</g>
+  <g transform="translate(99,46)">
+  <rect width="69" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="61" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#4DABCF"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">NumPy</text>
+</g>
+  <g transform="translate(176,46)">
+  <rect width="69" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="61" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#4479A1"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">MySQL</text>
+</g>
+  <g transform="translate(253,46)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#66CCFF"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Hadoop</text>
+</g>
+  <g transform="translate(14,82)">
+  <rect width="92" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="84" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#F2C811"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Power BI</text>
+</g>
+  <g transform="translate(114,82)">
+  <rect width="69" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="61" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#217346"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Excel</text>
+</g>
+  <g transform="translate(191,82)">
+  <rect width="92" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="84" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#336791"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">PL/pgSQL</text>
+</g>
+</g>
+<g transform="translate(18,178)">
+  <rect width="390" height="124" rx="12" fill="#080E1A" stroke="#1E3A5F" stroke-width="1.2"/>
+  <rect width="390" height="124" rx="12" fill="url(#pod-glass-grad)" opacity="0.7"/>
+  <rect x="12" y="1" width="366" height="2.5" rx="1" fill="url(#accent-grad-2)"/>
+  <circle cx="378" cy="112" r="1.5" fill="#A855F7" opacity="0.4"/>
+  <circle cx="18" cy="22" r="3.5" fill="#A855F7" class="pulse-beacon"/>
+  <text x="28" y="25.5" fill="#FFFFFF" font-size="11" font-weight="800" letter-spacing="0.6">FRONTEND &amp; MOBILE DEV</text>
+  <rect x="276" y="13" width="100" height="18" rx="4" fill="#A855F71A" stroke="#A855F7" stroke-width="0.8"/>
+  <text x="326" y="25" text-anchor="middle" fill="#A855F7" font-size="8.5" font-weight="800" letter-spacing="0.5">CLIENT LAYER</text>
+  <line x1="12" y1="36" x2="378" y2="36" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+  <g transform="translate(14,46)">
+  <rect width="69" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="61" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#61DAFB"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">React</text>
+</g>
+  <g transform="translate(91,46)">
+  <rect width="84" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="76" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#54C5F8"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Flutter</text>
+</g>
+  <g transform="translate(183,46)">
+  <rect width="68" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="60" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#0175C2"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Dart</text>
+</g>
+  <g transform="translate(259,46)">
+  <rect width="84" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="76" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#339933"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Node.js</text>
+</g>
+  <g transform="translate(14,82)">
+  <rect width="122" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="114" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#06B6D4"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Tailwind CSS</text>
+</g>
+  <g transform="translate(144,82)">
+  <rect width="69" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="61" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#E34F26"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">HTML5</text>
+</g>
+  <g transform="translate(221,82)">
+  <rect width="68" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="60" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#1572B6"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">CSS3</text>
+</g>
+  <g transform="translate(297,82)">
+  <rect width="107" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="99" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#3178C6"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">TypeScript</text>
+</g>
+</g>
+<g transform="translate(422,178)">
+  <rect width="390" height="124" rx="12" fill="#080E1A" stroke="#1E3A5F" stroke-width="1.2"/>
+  <rect width="390" height="124" rx="12" fill="url(#pod-glass-grad)" opacity="0.7"/>
+  <rect x="12" y="1" width="366" height="2.5" rx="1" fill="url(#accent-grad-3)"/>
+  <circle cx="378" cy="112" r="1.5" fill="#00FF9F" opacity="0.4"/>
+  <circle cx="18" cy="22" r="3.5" fill="#00FF9F" class="pulse-beacon"/>
+  <text x="28" y="25.5" fill="#FFFFFF" font-size="11" font-weight="800" letter-spacing="0.6">SYSTEMS, DEVOPS &amp; TOOLS</text>
+  <rect x="290" y="13" width="86" height="18" rx="4" fill="#00FF9F1A" stroke="#00FF9F" stroke-width="0.8"/>
+  <text x="333" y="25" text-anchor="middle" fill="#00FF9F" font-size="8.5" font-weight="800" letter-spacing="0.5">CORE INFRA</text>
+  <line x1="12" y1="36" x2="378" y2="36" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+  <g transform="translate(14,46)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#2496ED"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Docker</text>
+</g>
+  <g transform="translate(99,46)">
+  <rect width="69" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="61" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#FCC624"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Linux</text>
+</g>
+  <g transform="translate(176,46)">
+  <rect width="68" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="60" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#F05032"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Git</text>
+</g>
+  <g transform="translate(252,46)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#FFFFFF"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">GitHub</text>
+</g>
+  <g transform="translate(14,82)">
+  <rect width="84" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="76" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#007ACC"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">VS Code</text>
+</g>
+  <g transform="translate(106,82)">
+  <rect width="84" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="76" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#47A248"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">MongoDB</text>
+</g>
+  <g transform="translate(198,82)">
+  <rect width="77" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="69" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#A8B9CC"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">C Lang</text>
+</g>
+  <g transform="translate(283,82)">
+  <rect width="68" height="28" rx="6" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="4" y="1" width="60" height="1" rx="0.5" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="12" cy="14" r="3.5" fill="#ED8B00"/>
+  <text x="22" y="17.5" fill="#E2E8F0" font-size="10.5" font-weight="700">Java</text>
+</g>
+</g>
+</svg>
