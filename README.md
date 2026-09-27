@@ -160,13 +160,13 @@
 
 <div align="center">
 
-<!-- Retro Arcade Game Footer -->
-<img width="100%" src="assets/footer-game.svg" alt="Space Invaders Retro Arcade Mission Complete // Nilesh Sahoo" />
+<!-- Chrome Dino Endless Runner Footer -->
+<img width="100%" src="assets/footer-dino.svg" alt="Chrome Dino Endless Runner · Nilesh Sahoo" />
 
 <br/>
 
-**"Code is the modern sorcery: turning pure imagination into reality, one commit at a time."** 🌌✨
+**"Bugs and failures are just obstacles waiting to be leaped over — never stop running."** 🦖✨
 
-*If my work inspired you, drop a ⭐ on my repos — it fuels the next mission!* 🚀
+*If my work inspired you, drop a ⭐ on my repos — it keeps the journey going!* 🌟
 
 </div>
