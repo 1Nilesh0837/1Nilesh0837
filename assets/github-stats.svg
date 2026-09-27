@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 240" width="100%" height="240" style="background:#0A101F; font-family:ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace;">
+<defs>
+  <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="flame-glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="cyber-border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00FF9F" stop-opacity="0.9"/>
+    <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#A855F7" stop-opacity="0.9"/>
+  </linearGradient>
+  <linearGradient id="scan-laser" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="830" height="240" rx="14" fill="#0A101F" stroke="url(#cyber-border)" stroke-width="1.6"/>
+<text x="25" y="24" fill="#00FF9F" font-size="10" font-weight="900" letter-spacing="1">/// DEVELOPER TELEMETRY // CORE METRICS</text>
+<text x="415" y="24" text-anchor="middle" fill="#7A9EC5" font-size="10.5" font-weight="700" letter-spacing="1">SYSTEM STATUS: <tspan fill="#00FF9F">OPTIMAL</tspan></text>
+<g transform="translate(680, 21)">
+  <circle cx="0" cy="0" r="4.5" fill="#00FF9F" filter="url(#neon-glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="12" y="3.5" fill="#FFFFFF" font-size="9.5" font-weight="800" letter-spacing="0.5">LIVE SYNCED</text>
+</g>
+<line x1="20" y1="34" x2="810" y2="34" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+<rect x="25" y="44" width="250" height="158" rx="10" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+<g>
+  <circle cx="80" cy="120" r="40" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="3,4" opacity="0.8"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 80 120" to="360 80 120" dur="9s" repeatCount="indefinite"/>
+</g>
+<g>
+  <circle cx="80" cy="120" r="34" fill="none" stroke="#00FF9F" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.8"/>
+  <animateTransform attributeName="transform" type="rotate" from="360 80 120" to="0 80 120" dur="6s" repeatCount="indefinite"/>
+</g>
+<circle cx="80" cy="120" r="26" fill="#0A101F" stroke="#FFD700" stroke-width="1.5" filter="url(#neon-glow)"/>
+<text x="80" y="128" text-anchor="middle" fill="#FFD700" font-size="24" font-weight="900">
+  <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+  A+
+</text>
+<text x="80" y="178" text-anchor="middle" fill="#7A9EC5" font-size="8.5" font-weight="700" letter-spacing="0.5">GRADE: TIER S</text>
+<text x="145" y="68" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">TOTAL COMMITS</text>
+<text x="145" y="83" fill="#00FF9F" font-size="14" font-weight="900">197+</text>
+<text x="145" y="100" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">PUBLIC REPOS</text>
+<text x="145" y="115" fill="#38BDF8" font-size="14" font-weight="900">44</text>
+<text x="145" y="132" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">STARGAZERS</text>
+<text x="145" y="147" fill="#FFD700" font-size="14" font-weight="900">4 ★</text>
+<text x="145" y="164" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">ACTIVE DAYS</text>
+<text x="145" y="179" fill="#A855F7" font-size="14" font-weight="900">51 d</text>
+<rect x="290" y="44" width="250" height="158" rx="10" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+<rect x="291" y="45" width="248" height="24" fill="url(#scan-laser)">
+  <animate attributeName="y" values="45;178;45" dur="3.5s" repeatCount="indefinite"/>
+</rect>
+<text x="305" y="64" fill="#7A9EC5" font-size="9" font-weight="800" letter-spacing="1">VELOCITY &amp; STREAK REACTOR</text>
+<g filter="url(#flame-glow)">
+  <path fill="#00FF9F">
+    <animate attributeName="d" dur="0.22s" repeatCount="indefinite" values="M345,96 Q359,110 359,132 Q359,146 345,146 Q331,146 331,132 Q331,120 345,96 Z;M345,93 Q361,112 358,132 Q358,146 345,146 Q332,146 332,132 Q329,117 345,93 Z;M345,96 Q359,110 359,132 Q359,146 345,146 Q331,146 331,132 Q331,120 345,96 Z"/>
+  </path>
+  <path fill="#FFD700">
+    <animate attributeName="d" dur="0.18s" repeatCount="indefinite" values="M345,108 Q352,120 352,134 Q352,142 345,142 Q338,142 338,134 Q338,120 345,108 Z;M345,105 Q353,122 351,134 Q351,142 345,142 Q339,142 339,134 Q337,119 345,105 Z;M345,108 Q352,120 352,134 Q352,142 345,142 Q338,142 338,134 Q338,120 345,108 Z"/>
+  </path>
+</g>
+<text x="345" y="174" text-anchor="middle" fill="#00FF9F" font-size="8.5" font-weight="800">BURNING STREAK</text>
+<text x="410" y="90" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">CONSISTENCY</text>
+<text x="410" y="106" fill="#38BDF8" font-size="14" font-weight="900">92.4%</text>
+<text x="410" y="124" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">YEARLY COMMITS</text>
+<text x="410" y="140" fill="#00FF9F" font-size="14" font-weight="900">197</text>
+<text x="410" y="158" fill="#7A9EC5" font-size="8" font-weight="700" letter-spacing="0.8">ACTIVE WEEKS</text>
+<text x="410" y="174" fill="#FFD700" font-size="14" font-weight="900">53 / 53</text>
+<rect x="555" y="44" width="250" height="158" rx="10" fill="#0D1627" stroke="#1E3A5F" stroke-width="1"/>
+<text x="570" y="64" fill="#7A9EC5" font-size="9" font-weight="800" letter-spacing="1">TOP LANGUAGES // CODE RATIO</text>
+<text x="570" y="86" fill="#FFFFFF" font-size="8.5" font-weight="700">Python</text>
+<text x="788" y="86" text-anchor="end" fill="#38BDF8" font-size="8.5" font-weight="800">51%</text>
+<rect x="638" y="79" width="150" height="7" rx="3.5" fill="#131D31"/>
+<rect x="638" y="79" width="150.0" height="7" rx="3.5" fill="#38BDF8" filter="url(#neon-glow)">
+  <animate attributeName="width" values="0;150.0" dur="1.2s" fill="freeze"/>
+</rect>
+<text x="570" y="105" fill="#FFFFFF" font-size="8.5" font-weight="700">Jupyter</text>
+<text x="788" y="105" text-anchor="end" fill="#FFA116" font-size="8.5" font-weight="800">15%</text>
+<rect x="638" y="98" width="150" height="7" rx="3.5" fill="#131D31"/>
+<rect x="638" y="98" width="44.1" height="7" rx="3.5" fill="#FFA116" filter="url(#neon-glow)">
+  <animate attributeName="width" values="0;44.1" dur="1.2s" fill="freeze"/>
+</rect>
+<text x="570" y="124" fill="#FFFFFF" font-size="8.5" font-weight="700">HTML/CSS</text>
+<text x="788" y="124" text-anchor="end" fill="#00FF9F" font-size="8.5" font-weight="800">15%</text>
+<rect x="638" y="117" width="150" height="7" rx="3.5" fill="#131D31"/>
+<rect x="638" y="117" width="44.1" height="7" rx="3.5" fill="#00FF9F" filter="url(#neon-glow)">
+  <animate attributeName="width" values="0;44.1" dur="1.2s" fill="freeze"/>
+</rect>
+<text x="570" y="143" fill="#FFFFFF" font-size="8.5" font-weight="700">TypeScript</text>
+<text x="788" y="143" text-anchor="end" fill="#3B82F6" font-size="8.5" font-weight="800">10%</text>
+<rect x="638" y="136" width="150" height="7" rx="3.5" fill="#131D31"/>
+<rect x="638" y="136" width="29.4" height="7" rx="3.5" fill="#3B82F6" filter="url(#neon-glow)">
+  <animate attributeName="width" values="0;29.4" dur="1.2s" fill="freeze"/>
+</rect>
+<text x="570" y="162" fill="#FFFFFF" font-size="8.5" font-weight="700">JavaScript</text>
+<text x="788" y="162" text-anchor="end" fill="#FACC15" font-size="8.5" font-weight="800">5%</text>
+<rect x="638" y="155" width="150" height="7" rx="3.5" fill="#131D31"/>
+<rect x="638" y="155" width="14.7" height="7" rx="3.5" fill="#FACC15" filter="url(#neon-glow)">
+  <animate attributeName="width" values="0;14.7" dur="1.2s" fill="freeze"/>
+</rect>
+<text x="570" y="181" fill="#FFFFFF" font-size="8.5" font-weight="700">Java / SQL</text>
+<text x="788" y="181" text-anchor="end" fill="#A855F7" font-size="8.5" font-weight="800">4%</text>
+<rect x="638" y="174" width="150" height="7" rx="3.5" fill="#131D31"/>
+<rect x="638" y="174" width="11.8" height="7" rx="3.5" fill="#A855F7" filter="url(#neon-glow)">
+  <animate attributeName="width" values="0;11.8" dur="1.2s" fill="freeze"/>
+</rect>
+<line x1="20" y1="216" x2="810" y2="216" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+<text x="25" y="230" fill="#7A9EC5" font-size="9" letter-spacing="0.5">PROTOCOL: <tspan fill="#00FF9F">TLS 1.3 ENCRYPTED</tspan></text>
+<text x="415" y="230" text-anchor="middle" fill="#FFFFFF" font-size="9" font-weight="700" letter-spacing="0.8">★ DEVELOPER METRICS VERIFIED // READY FOR NEXT PRODUCTION RUN ★</text>
+<text x="805" y="230" text-anchor="end" fill="#38BDF8" font-size="9" font-weight="800" letter-spacing="0.5">ALL SYSTEMS GO ⚡</text>
+</svg>
