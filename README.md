@@ -124,33 +124,33 @@
 
 ---
 
-## 🌸 Connect & Say Hello · Bento Cards
+## 🌐 Connect & Say Hello · Bento Cards
 
 <div align="center">
 
-<img width="100%" src="assets/socials/cute-header.svg" alt="Connect & Say Hello · Nilesh Sahoo" />
+<img width="100%" src="assets/socials/connect-header.svg" alt="Connect & Say Hello · Nilesh Sahoo" />
 
 <p align="center">
   <a href="https://linkedin.com/in/nilesh-sahoo-b032ab289" target="_blank">
-    <img width="49%" src="assets/socials/cute-linkedin.svg" alt="LinkedIn · Nilesh Sahoo" />
+    <img width="49%" src="assets/socials/connect-linkedin.svg" alt="LinkedIn · Nilesh Sahoo" />
   </a>
   <a href="https://www.leetcode.com/1nilesh0837" target="_blank">
-    <img width="49%" src="assets/socials/cute-leetcode.svg" alt="LeetCode · 1nilesh0837" />
+    <img width="49%" src="assets/socials/connect-leetcode.svg" alt="LeetCode · 1nilesh0837" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://kaggle.com/nileshsahoo07" target="_blank">
-    <img width="49%" src="assets/socials/cute-kaggle.svg" alt="Kaggle · nileshsahoo07" />
+    <img width="49%" src="assets/socials/connect-kaggle.svg" alt="Kaggle · nileshsahoo07" />
   </a>
   <a href="https://www.hackerearth.com/@nileshsahoo837" target="_blank">
-    <img width="49%" src="assets/socials/cute-hackerearth.svg" alt="HackerEarth · nileshsahoo837" />
+    <img width="49%" src="assets/socials/connect-hackerearth.svg" alt="HackerEarth · nileshsahoo837" />
   </a>
 </p>
 
 <p align="center">
   <a href="mailto:nileshsahoo837@gmail.com" target="_blank">
-    <img width="98.5%" src="assets/socials/cute-gmail.svg" alt="Direct Email Inquiry · nileshsahoo837@gmail.com" />
+    <img width="98.5%" src="assets/socials/connect-gmail.svg" alt="Direct Email Inquiry · nileshsahoo837@gmail.com" />
   </a>
 </p>
 

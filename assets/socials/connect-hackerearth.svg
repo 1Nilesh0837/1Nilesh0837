@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 94" width="100%" height="94" style="background:#0A101F; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<defs>
+  <linearGradient id="dark-bg-hackerearth" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#A855F7" stop-opacity="0.25"/>
+    <stop offset="45%" stop-color="#0E172A" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#0A101F" stop-opacity="1"/>
+  </linearGradient>
+  <filter id="glow-hackerearth" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="395" height="94" rx="18" fill="url(#dark-bg-hackerearth)" stroke="#A855F7" stroke-width="1.4"/>
+<rect x="16" y="20.0" width="54" height="54" rx="14" fill="#0D1627" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.8"/>
+<g transform="translate(28.0, 32.0) scale(1.25)" filter="url(#glow-hackerearth)">
+  <path d="M18.447 20.936H5.553V19.66h12.894zM20.973 0H9.511v6.51h.104c.986-1.276 2.206-1.4 3.538-1.306 1.967.117 3.89 1.346 4.017 5.169v7.322c0 .089-.05.177-.138.177h-2.29c-.09 0-.253-.082-.253-.177V10.6c0-1.783-.58-3.115-2.341-3.115-1.282 0-2.637.892-2.637 2.77v7.417c0 .089-.008.072-.102.072h-2.29c-.09 0-.29.022-.29-.072V0H3.178c-.843 0-1.581.673-1.581 1.515v20.996c0 .843.738 1.489 1.58 1.489h17.797c.843 0 1.431-.646 1.431-1.489V1.515c0-.842-.588-1.515-1.43-1.515" fill="#A855F7"/>
+</g>
+<text x="84" y="28" fill="#A855F7" font-size="9" font-weight="700" letter-spacing="0.6">ALGORITHM CONTESTS ⚡</text>
+<text x="84" y="48" fill="#FFFFFF" font-size="14.5" font-weight="800" letter-spacing="0.3">HACKEREARTH</text>
+<text x="84" y="67" fill="#94A3B8" font-size="10" font-weight="500">Coding Contests &amp; Problem Solving</text>
+<rect x="259" y="31.0" width="122" height="32" rx="16" fill="#0D1627" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.85"/>
+<text x="320.0" y="51.0" text-anchor="middle" fill="#A855F7" font-size="10.5" font-weight="800">@nileshsahoo837 <tspan font-size="11">↗</tspan></text>
+</svg>

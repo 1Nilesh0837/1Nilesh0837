@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 94" width="100%" height="94" style="background:#0A101F; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<defs>
+  <linearGradient id="dark-bg-gmail" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.25"/>
+    <stop offset="45%" stop-color="#0E172A" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#0A101F" stop-opacity="1"/>
+  </linearGradient>
+  <filter id="glow-gmail" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="810" height="94" rx="18" fill="url(#dark-bg-gmail)" stroke="#F43F5E" stroke-width="1.4"/>
+<rect x="16" y="20.0" width="54" height="54" rx="14" fill="#0D1627" stroke="#F43F5E" stroke-width="1.2" stroke-opacity="0.8"/>
+<g transform="translate(28.0, 32.0) scale(1.25)" filter="url(#glow-gmail)">
+  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#F43F5E"/>
+</g>
+<text x="84" y="28" fill="#F43F5E" font-size="9" font-weight="700" letter-spacing="0.6">SAY HELLO ANYTIME 💌</text>
+<text x="84" y="48" fill="#FFFFFF" font-size="14.5" font-weight="800" letter-spacing="0.3">DIRECT EMAIL INQUIRY</text>
+<text x="84" y="67" fill="#94A3B8" font-size="10" font-weight="500">Freelance, fun collabs, research or casual talks</text>
+<rect x="527" y="29.0" width="265" height="36" rx="18" fill="#0D1627" stroke="#F43F5E" stroke-width="1.4" stroke-opacity="0.85"/>
+<text x="659.5" y="52.0" text-anchor="middle" fill="#F43F5E" font-size="11.5" font-weight="800">nileshsahoo837@gmail.com <tspan font-size="12">✉ ↗</tspan></text>
+</svg>
