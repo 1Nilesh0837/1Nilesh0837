@@ -44,17 +44,15 @@
 <text class="txt-meta" x="35" y="27.5" fill="#00FF9F">LATEST RELEASE</text>
 <text class="txt-meta" x="382" y="27.5" text-anchor="end" fill="#FFD700">★ 0 STARS &#160;<tspan fill="#38BDF8">⚡ VERIFIED</tspan></text>
 <text class="txt-title" x="16" y="56" fill="#FFFFFF">
-  <tspan fill="#00FF9F">🌿 </tspan>ECOFORENSICS
+  <tspan fill="#00FF9F">🧠 </tspan>Nilesh
 </text>
 <text class="txt-body" x="16" y="78">
-  <tspan x="16" dy="0">EcoForensics is an AI-powered resource</tspan>
-  <tspan x="16" dy="18">intelligence system that detects invisible</tspan>
-  <tspan x="16" dy="18">energy, water, and fuel waste from video an...</tspan>
+  <tspan x="16" dy="0">High-impact software engineering project.</tspan>
 </text>
 <line x1="16" y1="151" x2="384" y2="151" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
-<rect x="16" y="161" width="62" height="22" rx="4" fill="#131D31" stroke="#F97316" stroke-width="0.8"/>
-<circle cx="26" cy="172" r="3" fill="#F97316"/>
-<text class="txt-meta" x="34" y="175" fill="#F97316">HTML</text>
+<rect x="16" y="161" width="78" height="22" rx="4" fill="#131D31" stroke="#38BDF8" stroke-width="0.8"/>
+<circle cx="26" cy="172" r="3" fill="#38BDF8"/>
+<text class="txt-meta" x="34" y="175" fill="#38BDF8">Python</text>
 <rect x="274" y="159" width="110" height="25" rx="5" fill="#00FF9F1A" stroke="#00FF9F" stroke-width="1"/>
 <text class="txt-meta" x="329" y="175" text-anchor="middle" fill="#00FF9F">VIEW REPO →</text>
 </svg>

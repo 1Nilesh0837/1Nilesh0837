@@ -40,12 +40,12 @@
   <em><b>📡 Live Repository Feed · Automatically updates whenever a new project is uploaded</b></em>
 </p>
 
-<a href="https://github.com/1Nilesh0837/ECOFORENSICS">
-  <img width="48.5%" src="assets/project-card-1.svg" alt="ECOFORENSICS" />
+<a href="https://github.com/1Nilesh0837/Nilesh">
+  <img width="48.5%" src="assets/project-card-1.svg" alt="Nilesh" />
 </a>
 &nbsp;
-<a href="https://github.com/1Nilesh0837/Mandate-Intelligence-Loop">
-  <img width="48.5%" src="assets/project-card-2.svg" alt="Mandate-Intelligence-Loop" />
+<a href="https://github.com/1Nilesh0837/ECOFORENSICS">
+  <img width="48.5%" src="assets/project-card-2.svg" alt="ECOFORENSICS" />
 </a>
 
 </div>
