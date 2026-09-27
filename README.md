@@ -36,11 +36,19 @@
 <!-- FEATURED_PROJECTS:START -->
 <div align="center">
 
-| 🌿 **[ECOFORENSICS](https://github.com/1Nilesh0837/ECOFORENSICS)** | 💳 **[Mandate-Intelligence-Loop](https://github.com/1Nilesh0837/Mandate-Intelligence-Loop)** |
-|:---:|:---:|
-| EcoForensics is an AI-powered resource intelligence system that detects invisible energy, water, and fuel waste from video and... | An agent that predicts the best day to retry a failed UPI Autopay debit, then runs bounded, compliant outreach if it still... |
-| <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" /> &nbsp; ⭐ `0` | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" /> &nbsp; ⭐ `0` |
-| [View Repo →](https://github.com/1Nilesh0837/ECOFORENSICS) | [View Repo →](https://github.com/1Nilesh0837/Mandate-Intelligence-Loop) |
+<p>
+  <img src="https://img.shields.io/badge/AUTO--SYNCED-ACTIVE-00FF9F?style=for-the-badge&logo=githubactions&logoColor=0A101F" alt="Auto-Synced" />
+  &nbsp;
+  <em><b>📡 Live Repository Feed · Automatically updates whenever a new project is uploaded</b></em>
+</p>
+
+<a href="https://github.com/1Nilesh0837/ECOFORENSICS">
+  <img width="48.5%" src="assets/project-card-1.svg" alt="ECOFORENSICS" />
+</a>
+&nbsp;
+<a href="https://github.com/1Nilesh0837/Mandate-Intelligence-Loop">
+  <img width="48.5%" src="assets/project-card-2.svg" alt="Mandate-Intelligence-Loop" />
+</a>
 
 </div>
 <!-- FEATURED_PROJECTS:END -->

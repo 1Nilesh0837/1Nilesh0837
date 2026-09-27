@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/banner-*.svg assets/github-pacman.svg assets/footer-dino.svg assets/github-stats.svg assets/socials/ scripts/banner/data/ scripts/banner/logos/
+          git add README.md assets/banner-*.svg assets/github-pacman.svg assets/footer-dino.svg assets/github-stats.svg assets/project-card-*.svg assets/socials/ scripts/banner/data/ scripts/banner/logos/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
