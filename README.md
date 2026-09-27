@@ -55,11 +55,53 @@
 
 ---
 
-## 💼 Tech Arsenal · Cyber Bento Matrix
+## 💼 Tech I Work With · Cyber Stack
 
 <div align="center">
 
-<img width="100%" src="assets/tech-bento.svg" alt="Nilesh's Cyber Bento Tech Stack" />
+<p>
+  <code>SYSTEM ARSENAL</code> &nbsp; <b>High-Performance Machine Learning, Big Data & Full-Stack Infrastructure</b>
+</p>
+
+<br/>
+
+<!-- 01: AI & Machine Learning -->
+<p>
+  <img src="https://img.shields.io/badge/01%20//%20AI%20%26%20MACHINE%20LEARNING-0A101F?style=for-the-badge&logo=openai&logoColor=00FF9F" alt="AI & Machine Learning" />
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,r,matlab" alt="AI / Machine Learning & Computer Vision" />
+</p>
+
+<br/>
+
+<!-- 02: Data & Analytics -->
+<p>
+  <img src="https://img.shields.io/badge/02%20//%20DATA%20%26%20ANALYTICS-0A101F?style=for-the-badge&logo=apachespark&logoColor=38BDF8" alt="Data & Analytics" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />&nbsp;
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />&nbsp;
+  <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
+  <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />&nbsp;
+  <img src="https://img.shields.io/badge/excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
+</p>
+
+<br/>
+
+<!-- 03: Frontend & Mobile -->
+<p>
+  <img src="https://img.shields.io/badge/03%20//%20FRONTEND%20%26%20MOBILE%20DEV-0A101F?style=for-the-badge&logo=react&logoColor=A855F7" alt="Frontend & Mobile Development" />
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,flutter,dart,tailwind,html,css,nodejs,androidstudio" alt="Frontend & Mobile Development" />
+</p>
+
+<br/>
+
+<!-- 04: Systems & Tools -->
+<p>
+  <img src="https://img.shields.io/badge/04%20//%20LANGUAGES%2C%20DEVOPS%20%26%20TOOLS-0A101F?style=for-the-badge&logo=gnubash&logoColor=FFD700" alt="Languages & Tools" />
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=c,java,git,github,docker,mongodb,vscode,linux" alt="Languages & Tools" />
+</p>
 
 </div>
 
