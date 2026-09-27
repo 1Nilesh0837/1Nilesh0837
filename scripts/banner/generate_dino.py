@@ -18,8 +18,9 @@ TEXT_MUTED = "#7A9EC5"
 NEON_MINT = "#00FF9F"
 NEON_CYAN = "#38BDF8"
 NEON_YELLOW = "#FFD700"
-DINO_COLOR = "#E2E8F0"
-CACTUS_COLOR = "#00FF9F"
+DINO_COLOR = "#00FF9F"      # Vibrant glowing neon mint
+DINO_ACCENT = "#FFFFFF"     # White eye & teeth highlights
+CACTUS_COLOR = "#38BDF8"    # Electric Cyan cactus
 
 
 def build_dino_svg():
@@ -33,29 +34,35 @@ def build_dino_svg():
     # Defs & Filters
     svg.append('<defs>\n')
     svg.append(
-        '  <filter id="dino-glow" x="-20%" y="-20%" width="140%" height="140%">\n'
+        '  <filter id="dino-glow" x="-30%" y="-30%" width="160%" height="160%">\n'
+        '    <feGaussianBlur stdDeviation="2.5" result="blur"/>\n'
+        '    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>\n'
+        '  </filter>\n'
+    )
+    svg.append(
+        '  <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">\n'
         '    <feGaussianBlur stdDeviation="2" result="blur"/>\n'
         '    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>\n'
         '  </filter>\n'
     )
     svg.append(
         '  <linearGradient id="dino-border" x1="0%" y1="0%" x2="100%" y2="0%">\n'
-        f'    <stop offset="0%" stop-color="{NEON_MINT}" stop-opacity="0.8"/>\n'
-        f'    <stop offset="50%" stop-color="{NEON_CYAN}" stop-opacity="0.5"/>\n'
-        f'    <stop offset="100%" stop-color="{BORDER_COLOR}" stop-opacity="0.8"/>\n'
+        f'    <stop offset="0%" stop-color="{NEON_MINT}" stop-opacity="0.9"/>\n'
+        f'    <stop offset="50%" stop-color="{NEON_CYAN}" stop-opacity="0.6"/>\n'
+        f'    <stop offset="100%" stop-color="{BORDER_COLOR}" stop-opacity="0.9"/>\n'
         '  </linearGradient>\n'
     )
     svg.append('</defs>\n')
 
     # Outer Panel
-    svg.append(f'<rect width="{w}" height="{h}" rx="14" fill="{BG_COLOR}" stroke="url(#dino-border)" stroke-width="1.5"/>\n')
+    svg.append(f'<rect width="{w}" height="{h}" rx="14" fill="{BG_COLOR}" stroke="url(#dino-border)" stroke-width="1.6"/>\n')
 
     # Top HUD Bar
-    svg.append(f'<text x="25" y="24" fill="{NEON_MINT}" font-size="10.5" font-weight="900" letter-spacing="1">CHROME DINO // NO INTERNET</text>\n')
+    svg.append(f'<text x="25" y="24" fill="{NEON_MINT}" font-size="10.5" font-weight="900" letter-spacing="1">CHROME DINO // NO INTERNET 🦖</text>\n')
     # Score counter (with blinking effect)
     svg.append(
-        f'<text x="{w-25}" y="24" text-anchor="end" fill="{TEXT_MUTED}" font-size="11" font-weight="900" letter-spacing="1.5">\n'
-        f'  HI <tspan fill="{TEXT_WHITE}">099990</tspan>  <tspan fill="{NEON_YELLOW}">001970</tspan>\n'
+        f'<text x="{w-25}" y="24" text-anchor="end" font-size="11" font-weight="900" letter-spacing="1.5">\n'
+        f'  <tspan fill="{TEXT_MUTED}">HI</tspan> <tspan fill="{TEXT_WHITE}">099990</tspan>  <tspan fill="{NEON_YELLOW}">001970</tspan>\n'
         f'</text>\n'
     )
     svg.append(f'<line x1="20" y1="32" x2="{w-20}" y2="32" stroke="{BORDER_COLOR}" stroke-width="0.8" opacity="0.5"/>\n')
@@ -76,15 +83,13 @@ def build_dino_svg():
             f'<g opacity="0.3">\n'
             f'  <animateTransform attributeName="transform" type="translate" dur="{cdur}" repeatCount="indefinite" '
             f'values="{w},{cy}; -100,{cy}"/>\n'
-            # Pixel Cloud shape
             f'  <path fill="{TEXT_MUTED}" d="M0,8 h36 v-4 h-6 v-4 h-16 v4 h-6 v4 h-8 z"/>\n'
             f'</g>\n'
         )
 
     # Flying Pterodactyl in the sky
-    # Flaps wings between frame 1 and 2
     svg.append(
-        f'<g opacity="0.75">\n'
+        f'<g opacity="0.85" filter="url(#neon-glow)">\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="11s" repeatCount="indefinite" '
         f'values="{w+60},46; -60,46"/>\n'
         # Frame A (wings up)
@@ -112,90 +117,89 @@ def build_dino_svg():
     )
 
     # ── Incoming Obstacles (Cacti) ──
-    # Moving right to left across ground (Total cycle = 4s)
-    # Dino leaps over Cactus 1 at t=1.8s
-    # Cactus 1:
+    # Cactus 1 (Cyan neon cactus):
     svg.append(
-        f'<g transform="translate(0, {ground_y})">\n'
+        f'<g>\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" '
         f'values="{w+40},{ground_y}; -40,{ground_y}"/>\n'
-        # Large Pixel Cactus (Green with arms)
         f'  <g filter="url(#dino-glow)">\n'
-        # Main trunk
-        f'    <rect x="-4" y="-28" width="8" height="28" fill="{CACTUS_COLOR}" rx="1"/>\n'
-        # Left arm
-        f'    <rect x="-10" y="-20" width="6" height="4" fill="{CACTUS_COLOR}"/>\n'
-        f'    <rect x="-10" y="-24" width="4" height="6" fill="{CACTUS_COLOR}" rx="1"/>\n'
-        # Right arm
-        f'    <rect x="4" y="-16" width="6" height="4" fill="{CACTUS_COLOR}"/>\n'
-        f'    <rect x="6" y="-22" width="4" height="8" fill="{CACTUS_COLOR}" rx="1"/>\n'
+        f'    <rect x="-4" y="-30" width="8" height="30" fill="{CACTUS_COLOR}" rx="1.5"/>\n'
+        f'    <rect x="-11" y="-22" width="7" height="4" fill="{CACTUS_COLOR}"/>\n'
+        f'    <rect x="-11" y="-27" width="4" height="7" fill="{CACTUS_COLOR}" rx="1"/>\n'
+        f'    <rect x="4" y="-18" width="7" height="4" fill="{CACTUS_COLOR}"/>\n'
+        f'    <rect x="7" y="-25" width="4" height="9" fill="{CACTUS_COLOR}" rx="1"/>\n'
         f'  </g>\n'
         f'</g>\n'
     )
 
-    # Cactus 2 (Delayed by 1.8s, double cactus)
+    # Cactus 2 (Delayed by 1.8s, Double Pink/Mint cactus):
     svg.append(
-        f'<g transform="translate(0, {ground_y})">\n'
+        f'<g>\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" '
         f'begin="-1.8s" values="{w+40},{ground_y}; -40,{ground_y}"/>\n'
         f'  <g filter="url(#dino-glow)">\n'
-        f'    <rect x="-8" y="-22" width="6" height="22" fill="{NEON_CYAN}" rx="1"/>\n'
-        f'    <rect x="2" y="-26" width="7" height="26" fill="{NEON_CYAN}" rx="1"/>\n'
-        f'    <rect x="-13" y="-16" width="5" height="3" fill="{NEON_CYAN}"/>\n'
-        f'    <rect x="-13" y="-20" width="3" height="5" fill="{NEON_CYAN}"/>\n'
+        f'    <rect x="-10" y="-24" width="7" height="24" fill="#FF007F" rx="1.5"/>\n'
+        f'    <rect x="2" y="-29" width="8" height="29" fill="#FF007F" rx="1.5"/>\n'
+        f'    <rect x="-15" y="-17" width="5" height="4" fill="#FF007F"/>\n'
+        f'    <rect x="-15" y="-22" width="4" height="6" fill="#FF007F"/>\n'
+        f'    <rect x="10" y="-21" width="5" height="4" fill="#FF007F"/>\n'
+        f'    <rect x="11" y="-26" width="4" height="7" fill="#FF007F"/>\n'
         f'  </g>\n'
         f'</g>\n'
     )
 
-    # ── Chrome T-Rex Dinosaur (Position x = 110) ──
-    # Dino jumps when cacti approach!
-    # Jump cycle matches 1.8s (synced with incoming cacti):
-    # Runs on ground: 0..0.7s
-    # Leaps up: 0.7..1.0s (peak at y = -36)
-    # Hangs & Lands: 1.0..1.3s
-    # Runs on ground: 1.3..1.8s
-    jump_keys = "0; 0.38; 0.46; 0.54; 0.62; 1.0"
-    jump_vals = "0,0; 0,0; 0,-34; 0,-34; 0,0; 0,0"
+    # ── Chrome T-Rex Dinosaur (Position x = 130) ──
+    # Jump cycle: 1.8s loop
+    # Runs on ground: 0..0.34
+    # Leaps up: 0.34..0.48 (peak at y = ground_y - 36)
+    # Hangs & Lands: 0.48..0.62 (lands at ground_y)
+    # Runs on ground: 0.62..1.0
+    dino_x = 130
+    jump_keys = "0;0.34;0.48;0.62;1.0"
+    jump_vals = f"{dino_x},{ground_y}; {dino_x},{ground_y}; {dino_x},{ground_y-36}; {dino_x},{ground_y}; {dino_x},{ground_y}"
 
     svg.append(
-        f'<g transform="translate(110, {ground_y})">\n'
-        f'  <!-- Jump Animation -->\n'
+        f'<!-- Animated T-Rex Dinosaur (Jumping over Cacti) -->\n'
+        f'<g filter="url(#dino-glow)">\n'
         f'  <animateTransform attributeName="transform" type="translate" dur="1.8s" repeatCount="indefinite" '
         f'values="{jump_vals}" keyTimes="{jump_keys}"/>\n'
+        # Scale up dino slightly (1.25x) so it's super prominent
+        f'  <g transform="scale(1.25)">\n'
         # Dino Body & Head (Pixel art)
-        f'  <g fill="{DINO_COLOR}">\n'
+        f'    <g fill="{DINO_COLOR}">\n'
         # Head & Snout
-        f'    <rect x="8" y="-34" width="16" height="12" rx="1"/>\n'
-        f'    <rect x="18" y="-34" width="8" height="6"/>\n'
-        # Eye (cutout)
-        f'    <rect x="12" y="-32" width="2" height="2" fill="{BG_COLOR}"/>\n'
-        # Mouth open line
-        f'    <rect x="18" y="-25" width="8" height="2" fill="{BG_COLOR}"/>\n'
-        # Neck & Body
-        f'    <rect x="6" y="-26" width="10" height="16"/>\n'
-        f'    <rect x="-6" y="-22" width="18" height="12"/>\n'
+        f'      <rect x="6" y="-36" width="18" height="13" rx="1.5"/>\n'
+        f'      <rect x="18" y="-36" width="8" height="7" rx="1"/>\n'
+        # Eye (cutout with dark background)
+        f'      <rect x="11" y="-34" width="2.5" height="2.5" fill="{BG_COLOR}"/>\n'
+        # Snout / Mouth line
+        f'      <rect x="17" y="-26" width="9" height="2.5" fill="{BG_COLOR}"/>\n'
+        # Neck & Torso
+        f'      <rect x="5" y="-27" width="11" height="17"/>\n'
+        f'      <rect x="-8" y="-23" width="20" height="13"/>\n'
         # Tail
-        f'    <rect x="-12" y="-22" width="6" height="6"/>\n'
-        f'    <rect x="-16" y="-20" width="4" height="4"/>\n'
-        # Little Arm
-        f'    <rect x="14" y="-18" width="5" height="3" rx="0.5"/>\n'
-        f'    <rect x="17" y="-16" width="2" height="4"/>\n'
-        f'  </g>\n'
-        # Running Legs (Alternating 2-frame walk cycle)
-        f'  <g fill="{DINO_COLOR}">\n'
-        # Leg Frame 1: Left down, right up
-        f'    <g>\n'
-        f'      <animate attributeName="opacity" values="1;0;1" dur="0.18s" repeatCount="indefinite"/>\n'
-        f'      <rect x="0" y="-10" width="3" height="10"/>\n'
-        f'      <rect x="0" y="-2" width="6" height="2"/>\n'
-        f'      <rect x="8" y="-10" width="3" height="6"/>\n'
+        f'      <rect x="-14" y="-23" width="7" height="7"/>\n'
+        f'      <rect x="-18" y="-21" width="5" height="5"/>\n'
+        # Short Arm
+        f'      <rect x="13" y="-18" width="6" height="3" rx="1"/>\n'
+        f'      <rect x="17" y="-16" width="2.5" height="4"/>\n'
         f'    </g>\n'
+        # Running Legs (Alternating 2-frame walk cycle)
+        f'    <g fill="{DINO_COLOR}">\n'
+        # Leg Frame 1: Left down, right up
+        f'      <g>\n'
+        f'        <animate attributeName="opacity" values="1;0;1" dur="0.16s" repeatCount="indefinite"/>\n'
+        f'        <rect x="-1" y="-10" width="3.5" height="10"/>\n'
+        f'        <rect x="-1" y="-2" width="7" height="2.5"/>\n'
+        f'        <rect x="7" y="-10" width="3.5" height="6"/>\n'
+        f'      </g>\n'
         # Leg Frame 2: Left up, right down
-        f'    <g>\n'
-        f'      <animate attributeName="opacity" values="0;1;0" dur="0.18s" repeatCount="indefinite"/>\n'
-        f'      <rect x="0" y="-10" width="3" height="6"/>\n'
-        f'      <rect x="8" y="-10" width="3" height="10"/>\n'
-        f'      <rect x="8" y="-2" width="6" height="2"/>\n'
+        f'      <g>\n'
+        f'        <animate attributeName="opacity" values="0;1;0" dur="0.16s" repeatCount="indefinite"/>\n'
+        f'        <rect x="-1" y="-10" width="3.5" height="6"/>\n'
+        f'        <rect x="7" y="-10" width="3.5" height="10"/>\n'
+        f'        <rect x="7" y="-2" width="7" height="2.5"/>\n'
+        f'      </g>\n'
         f'    </g>\n'
         f'  </g>\n'
         f'</g>\n'
