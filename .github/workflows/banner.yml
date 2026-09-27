@@ -39,8 +39,8 @@ jobs:
       - name: Generate Cyber Bento social cards
         run: python scripts/banner/generate_socials.py
 
-      - name: Generate Chrome Dino runner footer
-        run: python scripts/banner/generate_dino.py
+      - name: Generate Cyber Synthwave Highway footer
+        run: python scripts/banner/generate_synthwave.py
 
       - name: Generate Cyber Holographic GitHub Stats
         run: python scripts/banner/generate_stats.py
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/banner-*.svg assets/github-pacman.svg assets/footer-dino.svg assets/github-stats.svg assets/project-card-*.svg assets/socials/ scripts/banner/data/ scripts/banner/logos/
+          git add README.md assets/banner-*.svg assets/github-pacman.svg assets/footer-synthwave.svg assets/github-stats.svg assets/project-card-*.svg assets/socials/ scripts/banner/data/ scripts/banner/logos/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

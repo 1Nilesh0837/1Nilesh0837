@@ -167,12 +167,12 @@
 
 <div align="center">
 
-<!-- Chrome Dino Endless Runner Footer -->
-<img width="100%" src="assets/footer-dino.svg" alt="Chrome Dino Endless Runner · Nilesh Sahoo" />
+<!-- Cyber Synthwave Highway Cruise Footer -->
+<img width="100%" src="assets/footer-synthwave.svg" alt="Cyber Synthwave Highway · Nilesh Sahoo" />
 
 <br/>
 
-**"Bugs and failures are just obstacles waiting to be leaped over — never stop running."** 🦖✨
+**"Code with passion, cruise beyond the limits — never stop building."** 🏎️⚡✨
 
 *If my work inspired you, drop a ⭐ on my repos — it keeps the journey going!* 🌟
 
