@@ -81,16 +81,9 @@
 
 ---
 
-## ⚡ GitHub Telemetry & Stats
+## ⚡ GitHub Stats
 
 <div align="center">
-
-<!-- GitHub Trophies -->
-<a href="https://github.com/1Nilesh0837">
-  <img src="https://github-trophies.vercel.app/?username=1Nilesh0837&theme=onedark&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="GitHub Trophies" />
-</a>
-
-<br/><br/>
 
 <!-- Stats & Streak Side-by-Side (Matching 195px Height & Cyberpunk Theme) -->
 <a href="https://github.com/1Nilesh0837">
