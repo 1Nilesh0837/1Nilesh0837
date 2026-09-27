@@ -160,11 +160,13 @@
 
 <div align="center">
 
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,40:0a0a2e,70:001a1a,100:0d0d0d&height=80&text=%3E_%20Thanks%20for%20visiting%20%2F%20EOF&fontSize=20&fontColor=00ff9f&fontAlignY=55&descColor=7affcb" />
+<!-- Retro Arcade Game Footer -->
+<img width="100%" src="assets/footer-game.svg" alt="Space Invaders Retro Arcade Mission Complete // Nilesh Sahoo" />
 
-**"Code is poetry written in logic"** ✨
+<br/>
 
-*If you like my work, drop a ⭐ on my repos — it keeps me going!*
+**"Code is the modern sorcery: turning pure imagination into reality, one commit at a time."** 🌌✨
+
+*If my work inspired you, drop a ⭐ on my repos — it fuels the next mission!* 🚀
 
 </div>

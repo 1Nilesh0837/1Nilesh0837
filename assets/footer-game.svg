@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 160" width="100%" height="160" style="background:#070B14; font-family:ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace;">
+<defs>
+  <filter id="laser-glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="footer-border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.9"/>
+    <stop offset="50%" stop-color="#00FF9F" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#FF007F" stop-opacity="0.9"/>
+  </linearGradient>
+</defs>
+<rect width="830" height="160" rx="14" fill="#070B14" stroke="url(#footer-border)" stroke-width="1.6"/>
+<line x1="10" y1="8" x2="820" y2="8" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="14" x2="820" y2="14" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="20" x2="820" y2="20" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="26" x2="820" y2="26" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="32" x2="820" y2="32" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="38" x2="820" y2="38" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="44" x2="820" y2="44" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="50" x2="820" y2="50" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="56" x2="820" y2="56" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="62" x2="820" y2="62" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="68" x2="820" y2="68" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="74" x2="820" y2="74" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="80" x2="820" y2="80" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="86" x2="820" y2="86" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="92" x2="820" y2="92" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="98" x2="820" y2="98" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="104" x2="820" y2="104" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="110" x2="820" y2="110" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="116" x2="820" y2="116" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="122" x2="820" y2="122" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="128" x2="820" y2="128" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="134" x2="820" y2="134" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="140" x2="820" y2="140" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="146" x2="820" y2="146" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="152" x2="820" y2="152" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<line x1="10" y1="158" x2="820" y2="158" stroke="#1E293B" stroke-width="0.5" opacity="0.35"/>
+<circle cx="45" cy="30" r="1.2" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="120" cy="75" r="1.5" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="2.1s" repeatCount="indefinite"/>
+</circle>
+<circle cx="210" cy="45" r="1.0" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.7s" repeatCount="indefinite"/>
+</circle>
+<circle cx="280" cy="110" r="1.5" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="360" cy="25" r="1.2" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="460" cy="80" r="1.0" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.9s" repeatCount="indefinite"/>
+</circle>
+<circle cx="540" cy="35" r="1.4" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="2.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="620" cy="95" r="1.2" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="40" r="1.5" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="760" cy="70" r="1.0" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="150" cy="130" r="1.2" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="2.0s" repeatCount="indefinite"/>
+</circle>
+<circle cx="680" cy="125" r="1.2" fill="#FFFFFF">
+  <animate attributeName="opacity" values="0.1;1;0.1" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+<text x="25" y="24" fill="#FF007F" font-size="10.5" font-weight="900" letter-spacing="1">1UP <tspan fill="#FFFFFF">099990</tspan></text>
+<text x="415" y="24" text-anchor="middle" fill="#00FF9F" font-size="11" font-weight="900" letter-spacing="1.5" filter="url(#neon-glow)">★ MISSION COMPLETE // EOF ★</text>
+<text x="805" y="24" text-anchor="end" fill="#00E5FF" font-size="10.5" font-weight="900" letter-spacing="1">SHIPS <tspan fill="#FFD700">▲ ▲ ▲</tspan></text>
+<line x1="20" y1="32" x2="810" y2="32" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+<g transform="translate(130, 55)" filter="url(#laser-glow)">
+  <path fill="#FF007F" d="M-9,-6 h18 v2 h-2 v2 h4 v6 h-2 v-2 h-2 v4 h-2 v-4 h-8 v4 h-2 v-4 h-2 v2 h-2 v-6 h4 v-2 h-2 z">
+    <animate attributeName="opacity" values="1;0;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#FF007F" d="M-9,-6 h18 v2 h-2 v2 h2 v6 h-4 v-2 h-2 v2 h-6 v-2 h-2 v2 h-4 v-6 h2 v-2 h-2 z">
+    <animate attributeName="opacity" values="0;1;1;0" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <rect x="-5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+  <rect x="2.5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+</g>
+<g transform="translate(260, 55)" filter="url(#laser-glow)">
+  <path fill="#00E5FF" d="M-9,-6 h18 v2 h-2 v2 h4 v6 h-2 v-2 h-2 v4 h-2 v-4 h-8 v4 h-2 v-4 h-2 v2 h-2 v-6 h4 v-2 h-2 z">
+    <animate attributeName="opacity" values="1;0;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#00E5FF" d="M-9,-6 h18 v2 h-2 v2 h2 v6 h-4 v-2 h-2 v2 h-6 v-2 h-2 v2 h-4 v-6 h2 v-2 h-2 z">
+    <animate attributeName="opacity" values="0;1;1;0" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <rect x="-5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+  <rect x="2.5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+</g>
+<g transform="translate(390, 55)" filter="url(#laser-glow)">
+  <path fill="#00FF9F" d="M-9,-6 h18 v2 h-2 v2 h4 v6 h-2 v-2 h-2 v4 h-2 v-4 h-8 v4 h-2 v-4 h-2 v2 h-2 v-6 h4 v-2 h-2 z">
+    <animate attributeName="opacity" values="1;0;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#00FF9F" d="M-9,-6 h18 v2 h-2 v2 h2 v6 h-4 v-2 h-2 v2 h-6 v-2 h-2 v2 h-4 v-6 h2 v-2 h-2 z">
+    <animate attributeName="opacity" values="0;1;1;0" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <rect x="-5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+  <rect x="2.5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+</g>
+<g transform="translate(520, 55)" filter="url(#laser-glow)">
+  <path fill="#FFD700" d="M-9,-6 h18 v2 h-2 v2 h4 v6 h-2 v-2 h-2 v4 h-2 v-4 h-8 v4 h-2 v-4 h-2 v2 h-2 v-6 h4 v-2 h-2 z">
+    <animate attributeName="opacity" values="1;0;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#FFD700" d="M-9,-6 h18 v2 h-2 v2 h2 v6 h-4 v-2 h-2 v2 h-6 v-2 h-2 v2 h-4 v-6 h2 v-2 h-2 z">
+    <animate attributeName="opacity" values="0;1;1;0" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <rect x="-5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+  <rect x="2.5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+</g>
+<g transform="translate(650, 55)" filter="url(#laser-glow)">
+  <path fill="#FF007F" d="M-9,-6 h18 v2 h-2 v2 h4 v6 h-2 v-2 h-2 v4 h-2 v-4 h-8 v4 h-2 v-4 h-2 v2 h-2 v-6 h4 v-2 h-2 z">
+    <animate attributeName="opacity" values="1;0;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#FF007F" d="M-9,-6 h18 v2 h-2 v2 h2 v6 h-4 v-2 h-2 v2 h-6 v-2 h-2 v2 h-4 v-6 h2 v-2 h-2 z">
+    <animate attributeName="opacity" values="0;1;1;0" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  <rect x="-5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+  <rect x="2.5" y="-3" width="2.5" height="2.5" fill="#070B14"/>
+</g>
+<g transform="translate(390, 55)" filter="url(#laser-glow)">
+  <circle cx="0" cy="0" r="1" fill="#FFD700">
+    <animate attributeName="r" values="0;14;0" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+  </circle>
+  <text x="0" y="-12" text-anchor="middle" fill="#00FF9F" font-size="9" font-weight="900" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.45;0.65;1"/>
+    <animate attributeName="y" values="-8;-8;-18;-22" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.45;0.7;1"/>
+    +500
+  </text>
+</g>
+<rect x="388" y="55" width="2.2" height="10" rx="1" fill="#00E5FF" filter="url(#laser-glow)">
+  <animate attributeName="y" values="115;55" dur="0.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;0.9;0" dur="0.8s" repeatCount="indefinite"/>
+</rect>
+<rect x="392" y="55" width="2.2" height="10" rx="1" fill="#00E5FF" filter="url(#laser-glow)">
+  <animate attributeName="y" values="115;55" dur="0.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;0.9;0" dur="0.8s" repeatCount="indefinite"/>
+</rect>
+<g filter="url(#laser-glow)">
+  <animateTransform attributeName="transform" type="translate" dur="6s" repeatCount="indefinite" values="260,118; 520,118; 390,118; 260,118"/>
+  <polygon points="0,-12 -4,-4 -10,4 -10,8 -6,6 -3,8 0,6 3,8 6,6 10,8 10,4 4,-4" fill="#00E5FF"/>
+  <polygon points="0,-12 -2,-4 -5,4 0,2 5,4 2,-4" fill="#FFD700"/>
+  <rect x="-1" y="-14" width="2" height="4" fill="#FFFFFF"/>
+  <circle cx="0" cy="-2" r="2.2" fill="#070B14"/>
+  <circle cx="0" cy="-2" r="1.4" fill="#00FF9F"/>
+  <polygon points="-3,8 0,14 3,8" fill="#FF7A00">
+    <animate attributeName="points" dur="0.15s" repeatCount="indefinite" values="-3,8 0,15 3,8; -2.5,8 0,11 2.5,8; -3,8 0,16 3,8"/>
+  </polygon>
+  <polygon points="-1.5,8 0,11 1.5,8" fill="#FFD700">
+    <animate attributeName="points" dur="0.15s" repeatCount="indefinite" values="-1.5,8 0,11 1.5,8; -1,8 0,8 1,8; -1.5,8 0,12 1.5,8"/>
+  </polygon>
+</g>
+<line x1="20" y1="138" x2="810" y2="138" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+<text x="25" y="150" fill="#7A9EC5" font-size="9.5" letter-spacing="0.5">CREDITS: <tspan fill="#FFD700">99</tspan></text>
+<text x="415" y="150" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="0.8">✦ "CODE IS THE MODERN SORCERY: TURNING PURE LOGIC INTO REALITY" ✦</text>
+<text x="805" y="150" text-anchor="end" fill="#FF007F" font-size="9.5" font-weight="800" letter-spacing="0.5">INSERT COIN TO RESTART 🪙</text>
+</svg>
