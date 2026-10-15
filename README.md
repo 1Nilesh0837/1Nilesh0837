@@ -40,12 +40,12 @@
   <em><b>📡 Live Repository Feed · Automatically updates whenever a new project is uploaded</b></em>
 </p>
 
-<a href="https://github.com/1Nilesh0837/Retail-Customer-Insights-Analytics">
-  <img width="48.5%" src="assets/project-card-1.svg" alt="Retail-Customer-Insights-Analytics" />
+<a href="https://github.com/1Nilesh0837/Payments-Intelligence">
+  <img width="48.5%" src="assets/project-card-1.svg" alt="Payments-Intelligence" />
 </a>
 &nbsp;
-<a href="https://github.com/1Nilesh0837/ECOFORENSICS">
-  <img width="48.5%" src="assets/project-card-2.svg" alt="ECOFORENSICS" />
+<a href="https://github.com/1Nilesh0837/Retail-Customer-Insights-Analytics">
+  <img width="48.5%" src="assets/project-card-2.svg" alt="Retail-Customer-Insights-Analytics" />
 </a>
 
 </div>
